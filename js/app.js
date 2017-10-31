@@ -31,6 +31,11 @@ class App extends React.Component {
   }
   
   componentDidMount() {
+    let savedPage = localStorage['Page'];
+    console.log(savedPage);
+    this.setState({ page: savedPage});
+    localStorage['Page'] = this.state.page;
+    
     let winHeight = $(window).height();
     let adjHeight = winHeight;
     console.log(adjHeight);
@@ -39,7 +44,15 @@ class App extends React.Component {
     $('.page').addClass('animated slideInDown');
     //$('.page').css('height',adjHeight);
     //$('.carousel').css('height',adjHeight*.6);
-    
+  }
+  
+  componentDidUpdate() {
+    localStorage['Page'] = this.state.page;
+  }
+  
+  componentDidUnmount() {
+    //local memory to save page
+    localStorage['Page'] = this.state.page;
   }
   
   render() {

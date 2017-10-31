@@ -8943,6 +8943,11 @@
 	  }, {
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      var savedPage = localStorage['Page'];
+	      console.log(savedPage);
+	      this.setState({ page: savedPage });
+	      localStorage['Page'] = this.state.page;
+
 	      var winHeight = $(window).height();
 	      var adjHeight = winHeight;
 	      console.log(adjHeight);
@@ -8951,6 +8956,17 @@
 	      $('.page').addClass('animated slideInDown');
 	      //$('.page').css('height',adjHeight);
 	      //$('.carousel').css('height',adjHeight*.6);
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate() {
+	      localStorage['Page'] = this.state.page;
+	    }
+	  }, {
+	    key: 'componentDidUnmount',
+	    value: function componentDidUnmount() {
+	      //local memory to save page
+	      localStorage['Page'] = this.state.page;
 	    }
 	  }, {
 	    key: 'render',
@@ -10616,7 +10632,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-star fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-medkit fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10639,7 +10655,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-bus fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-bus fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10662,7 +10678,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-star fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-university fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10708,7 +10724,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-star fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-building fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10731,7 +10747,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-university fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-bolt fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10776,7 +10792,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-star fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-heart-o fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10799,7 +10815,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-bus fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-star-o fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10822,7 +10838,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-users fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-briefcase fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10845,7 +10861,7 @@
 	                React.createElement(
 	                  'span',
 	                  null,
-	                  React.createElement('i', { className: 'fa fa-university fa-3x', 'aria-hidden': 'true' })
+	                  React.createElement('i', { className: 'fa fa-futbol-o fa-4x', 'aria-hidden': 'true' })
 	                ),
 	                React.createElement(
 	                  'h3',
@@ -10859,6 +10875,29 @@
 	                )
 	              )
 	            )
+	          )
+	        ),
+	        React.createElement(
+	          'div',
+	          { className: 'slide' },
+	          React.createElement(
+	            'div',
+	            { id: 'slide-top' },
+	            React.createElement(
+	              'h1',
+	              null,
+	              'Case Studies'
+	            ),
+	            React.createElement(
+	              'h3',
+	              null,
+	              'You\'re in good company. Our customers share a few of their success stories below.'
+	            )
+	          ),
+	          React.createElement(
+	            'div',
+	            { id: 'slide-bot' },
+	            React.createElement('img', { src: 'https://cdn.call-em-all.com/assets/sprite-company-logos-black.png' })
 	          )
 	        ),
 	        React.createElement(

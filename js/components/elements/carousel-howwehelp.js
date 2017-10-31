@@ -75,21 +75,21 @@ class Carousel extends React.Component {
           <div id='slide-bot'>
             <div className='card'>
               <div>
-                <span><i className="fa fa-star fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-medkit fa-4x" aria-hidden="true"></i></span>
                 <h3>Health Care</h3>
                 <p>Flu Shot and appointment reminders, staff nurses, and send patients health care announcements.</p>
               </div>
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-bus fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-bus fa-4x" aria-hidden="true"></i></span>
                 <h3>Schools</h3>
                 <p>Send parents emergency alerts, reminders about report cards, field trips & school events.</p>
               </div>
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-star fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-university fa-4x" aria-hidden="true"></i></span>
                 <h3>Higher Education</h3>
                 <p>Deadline Reminders, campus events, send out weather alerts and emergency notifications.</p>
               </div>
@@ -103,14 +103,14 @@ class Carousel extends React.Component {
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-star fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-building fa-4x" aria-hidden="true"></i></span>
                 <h3>Property Managers</h3>
                 <p>Send rent reminders, maintenance notifications, & coordinate staff.</p>
               </div>
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-university fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-bolt fa-4x" aria-hidden="true"></i></span>
                 <h3>Waste & Utility</h3>
                 <p>Send shut down notices, payment reminders, and emergency notifications.</p>
               </div>
@@ -127,34 +127,44 @@ class Carousel extends React.Component {
             <div id='slide-bot'>
               <div className='card'>
               <div>
-                <span><i className="fa fa-star fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-heart-o fa-4x" aria-hidden="true"></i></span>
                 <h3>Non-profit</h3>
                 <p>Coordinate upcoming events, send donors a thank you, and send meething reminders.</p>
               </div>
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-bus fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-star-o fa-4x" aria-hidden="true"></i></span>
                 <h3>Religious Groups</h3>
                 <p>Send out prayer & volunteer requests, event reminders, schedule changes.</p>
               </div>
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-users fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-briefcase fa-4x" aria-hidden="true"></i></span>
                 <h3>Business</h3>
                 <p>Appointment reminders, notify staff about office closings, make important announcements.</p>
               </div>
             </div>
             <div className='card'>
               <div>
-                <span><i className="fa fa-university fa-3x" aria-hidden="true"></i></span>
+                <span><i className="fa fa-futbol-o fa-4x" aria-hidden="true"></i></span>
                 <h3>Sports Teams</h3>
                 <p>Rain delays, last minute field changes, and game cancellations.</p>
               </div>
             </div>
             </div>
           </div>
+        
+        <div className='slide'>
+          <div id='slide-top'>
+            <h1>Case Studies</h1>
+            <h3>You're in good company. Our customers share a few of their success stories below.</h3>
+          </div>
+          <div id='slide-bot'>
+            <img src='https://cdn.call-em-all.com/assets/sprite-company-logos-black.png'/>
+          </div> 
+        </div>
 
         
         <div className='slide'>

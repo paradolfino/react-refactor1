@@ -641,18 +641,15 @@
   color: white;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-top {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-top {
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-top .card {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-top .card {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -663,11 +660,11 @@
   width: 300px;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-top .card div i {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-top .card div i {
   color: #0099ff;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -678,23 +675,23 @@
   border-radius: 30px;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div h1 {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div h1 {
   color: white;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div div {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div div {
   margin-left: 30px;
   height: 30px;
   width: 200px;
   background-color: white;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div div input {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div div input {
   border: none;
   resize: none;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div #signup-btn {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div #signup-btn {
   margin-left: 30px;
   padding: 15px;
   font-size: 1.1em;
@@ -705,20 +702,17 @@
   border-radius: 30px;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div #signup-btn:hover {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div #signup-btn:hover {
   cursor: pointer;
   background-color: #0099ff;
 }
 
-#page-howwehelp .carousel .slide:nth-child(3) #slide-bot div #signup-btn span:after {
+#page-howwehelp .carousel .slide:nth-child(4) #slide-bot div #signup-btn span:after {
   content: 'Sign Up';
 }
 
 @media screen and (max-width: 1046px) {
-  #page-howwehelp .carousel .slide:nth-child(1) {
-    padding-top: 700px;
-  }
-  #page-howwehelp .carousel .slide:nth-child(2) {
+  #page-howwehelp .carousel .slide #slide-howwehelp {
     padding-top: 500px;
   }
   #page-howwehelp .carousel .slide:nth-child(4) {
@@ -750,7 +744,7 @@
 }
 
 @media screen and (max-width: 536px) {
-  #page-howwehelp .carousel .slide:nth-child(2) {
+  #page-howwehelp .carousel .slide #slide-howwehelp {
     padding-top: 900px;
   }
 }
