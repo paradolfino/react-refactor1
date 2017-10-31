@@ -1,0 +1,42 @@
+@import './modules/pages/_index.scss';
+@import './modules/pages/_features.scss';
+@import './modules/pages/_howwehelp.scss';
+@import './modules/_freefloating.scss';
+@import './modules/_variables.scss';
+
+
+
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 320px;
+  
+}
+
+//general css
+#app {
+  height: 100%;
+}
+
+.page {
+  height: 902px;
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+.special-btn { //used for all call to action buttons
+  padding: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white !important;
+  background-color: #0099ff !important;
+  border: none;
+  border-radius: 30px !important;
+  &:hover {
+        cursor: pointer;
+        background-color: #ff3300 !important;
+  }
+}

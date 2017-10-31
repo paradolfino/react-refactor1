@@ -1,0 +1,209 @@
+//index css
+#page-howwehelp {
+  .carousel {
+    .slide{
+      grid-template-rows: 50% 50%;
+      &:nth-child(1) {
+         #slide-bot {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-bottom: 18px;
+          flex-wrap: wrap;
+          .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1px;//may want to change these with jquery on resize
+            height: 300px;
+            width: 230px;
+            &:nth-child(1) {
+              background-color: #9966ff;
+            }
+            &:nth-child(2) {
+              background-color: #ff9933;
+            }
+            &:nth-child(3) {
+              background-color: #00cc99;
+            }
+            &:nth-child(4) {
+              background-color: #cc66ff;
+            }
+            &:nth-child(5) {
+              background-color: #003366;
+            }
+            &:nth-child(6) {
+              background-color: #ff3300;
+            }
+            div {
+              text-align: center;
+              h3 {
+                color: black;
+              }
+              i {
+                color: white;
+              }
+              p {
+                margin: 0 auto;
+                width: 90%;
+                color: white;
+              }
+            }
+          }
+        }
+      }//
+      //end slide
+      &:nth-child(2) {
+         #slide-bot {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-bottom: 18px;
+          flex-wrap: wrap;
+          .card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1px;//may want to change these with jquery on resize
+            height: 300px;
+            width: 230px;
+            &:nth-child(1) {
+              background-color: #9966ff;
+            }
+            &:nth-child(2) {
+              background-color: #ff9933;
+            }
+            &:nth-child(3) {
+              background-color: #00cc99;
+            }
+            &:nth-child(4) {
+              background-color: #cc66ff;
+            }
+            div {
+              text-align: center;
+              h3 {
+                color: black;
+              }
+              i {
+                color: white;
+              }
+              p {
+                margin: 0 auto;
+                width: 90%;
+                color: white;
+              }
+            }
+          }
+        }
+      }//
+      //end slide
+      &:nth-child(3) {
+        #slide-top {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          .card {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 5px;//may want to change these with jquery on resize
+            height: 300px;
+            width: 300px;
+            div {
+              i {
+                color: #0099ff;
+              }
+            }
+          }
+        }//end of slide-top
+        #slide-bot {
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0099ff;
+            border-radius: 30px;
+            h1 {
+              color: white;
+            }
+            div {
+              margin-left: 30px;
+              height: 30px;
+              width: 200px;
+              background-color: white;
+              input {
+                  border: none;
+                  resize: none;
+              }
+            }
+            #signup-btn {
+              margin-left: 30px;
+              padding: 15px;
+              font-size: 1.1em;
+              font-weight: bold;
+              color: white;
+              background-color: #ff3300;
+              border: none;
+              border-radius: 30px;
+              &:hover {
+                cursor: pointer;
+                background-color: #0099ff;
+              }
+              span {
+                &:after {
+                  content: 'Sign Up';
+                }
+              }
+            }
+          }
+        }
+      }//
+      //end slide
+      //specific media queries for each slide's breakpoint
+       @media screen and (max-width: 1046px) {
+         &:nth-child(1) {
+           padding-top: 700px;
+         }
+         &:nth-child(2) {
+           padding-top: 500px;
+         }
+         &:nth-child(4) {
+           padding-top: 300px;
+         }
+       }
+      @media screen and (max-width: 744px) {
+        &:nth-child(4) {
+          #slide-bot {
+            div{
+              flex-wrap: wrap;
+              h1{
+                font-size: 1em;
+              }
+              #signup-btn {
+                margin-left: 10px;
+                font-size: 0.8em;
+                span {
+                  &:after {
+                    content: '>';
+                  }
+                }
+              }
+            }
+          }
+         }
+      }
+      @media screen and (max-width: 708px) {
+        &:nth-child(4) {
+           padding-top: 900px;
+         }
+      }
+      @media screen and (max-width: 536px){
+        &:nth-child(2) {
+           padding-top: 900px;
+         }
+      }
+      //end queries
+    }
+  }
+}

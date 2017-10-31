@@ -1,0 +1,288 @@
+//features css
+//remember to reuse index 1 and 4 childs at the end of slides
+#page-features {
+  .carousel {
+    .slide {
+      .slide-features {
+        grid-template-rows: 50% 50%;
+        #slide-bot {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          margin-bottom: 18px;
+          flex-wrap: wrap;
+          .card {
+            display: flex;
+            justify-content: center;
+            margin: 1px; //may want to change these with jquery on resize
+            height: 300px;
+            width: 300px;
+            div {
+              text-align: center;
+              div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                height: 100px;
+                width: 100px;
+                border-radius: 100px;
+              }
+              h3 {
+                color: black;
+              }
+              i {
+                color: white;
+              }
+              p {
+                margin: 0 auto;
+                width: 100%;
+                color: gray;
+              }
+            }
+          }
+        }
+      }
+      &:nth-child(1) {
+        //represents 1st set of cards
+        .slide-features {
+          #slide-bot {
+            .card {
+              div {
+                #c1 {
+                  background-color: #003366;
+                }
+                #c2 {
+                  background-color: #9966ff;
+                }
+                #c3 {
+                  background-color: #ff9933;
+                }
+                #c4 {
+                  background-color: #00cc99;
+                }
+              }
+            }
+          }
+        }
+      } //end of nth-child
+      //
+      //end slide
+      //
+      &:nth-child(2) {
+        //represents 2nd set of cards
+        .slide-features {
+          #slide-bot {
+            .card {
+              div {
+                #c5 {
+                  background-color: #cc66ff;
+                }
+                #c6 {
+                  background-color: #ff3300;
+                }
+                #c7 {
+                  background-color: #003366;
+                }
+                #c8 {
+                  background-color: #9966ff;
+                } //c#
+              } //div
+            } //card
+          } //slide-bot
+        } //slide-features
+      } //end nth-child
+      &:nth-child(3) {
+        //represents 3rd set of cards
+        .slide-features {
+          #slide-bot {
+            .card {
+              div {
+                #c9 {
+                  background-color: #ff9933;
+                }
+                #c10 {
+                  background-color: #00cc99;
+                }
+                #c11 {
+                  background-color: #003366;
+                }
+                #c12 {
+                  background-color: #cc66ff;
+                } //c#
+              } //div
+            } //card
+          } //slide-bot
+        } //slide-features
+      } //end nth-child
+      &:nth-child(4) {
+        //represents 4th set of cards
+        .slide-features {
+          #slide-bot {
+            .card {
+              div {
+                #c13 {
+                  background-color: #ff3300;
+                }
+                #c14 {
+                  background-color: #003366;
+                }
+                #c15 {
+                  background-color: #9966ff;
+                }
+                #c16 {
+                  background-color: #ff9933;
+                } //c#
+              } //div
+            } //card
+          } //slide-bot
+        } //slide-features
+      } //end nth-child
+      &:nth-child(5) {
+        #slide-bot {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-wrap: wrap;
+          .card {
+            display: flex;
+            justify-content: center;
+            margin: 10px; //may want to change these with jquery on resize
+            height: 300px;
+            width: 250px;
+            div {
+              text-align: center;
+              h3 {
+                color: #003366;
+              }
+              i {
+                color: #ff3300;
+              }
+              p {
+                margin: 0 auto;
+                width: 90%;
+              } //p
+            } //div
+          } //card
+        } //slide-bot
+      } //end nth-child
+      &:nth-child(6) {
+        #slide-top {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          flex-wrap: wrap;
+          .card {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin: 5px; //may want to change these with jquery on resize
+            height: 300px;
+            width: 300px;
+            div {
+              i {
+                color: #0099ff;
+              }
+            }
+          }
+        } //end of slide-top
+        #slide-bot {
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0099ff;
+            border-radius: 30px;
+            h1 {
+              color: white;
+            }
+            div {
+              margin-left: 30px;
+              height: 30px;
+              width: 200px;
+              background-color: white;
+              input {
+                border: none;
+                resize: none;
+              }
+            }
+            #signup-btn {
+              margin-left: 30px;
+              padding: 15px;
+              font-size: 1.1em;
+              font-weight: bold;
+              color: white;
+              background-color: #ff3300;
+              border: none;
+              border-radius: 30px;
+              &:hover {
+                cursor: pointer;
+                background-color: #0099ff;
+              }
+              span {
+                &:after {
+                  content: "Sign Up";
+                } //after
+              } //span
+            } //btn
+          } //div
+        } //slide-bot
+      } //end nth-child
+      @media screen and (max-width: 2000px) {
+        .slide-features {
+          padding-top: 58px;
+        }
+      }
+      @media screen and (max-width: 1361px) {
+        .slide-features {
+          padding-top: 400px;
+        }
+      }
+      @media screen and (max-width: 1046px) {
+        &:nth-child(5) {
+          padding-top: 700px;
+        }
+
+        /*
+          &:nth-child(1),&:nth-child(2),&:nth-child(3),&:nth-child(4) {
+            padding-top: 500px;
+          }
+        */
+        &:nth-child(6) {
+          padding-top: 300px;
+        }
+      }
+      @media screen and (max-width: 744px) {
+        &:nth-child(6) {
+          #slide-bot {
+            div {
+              flex-wrap: wrap;
+              h1 {
+                font-size: 1em;
+              }
+              #signup-btn {
+                margin-left: 10px;
+                font-size: 0.8em;
+                span {
+                  &:after {
+                    content: ">";
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 708px) {
+        &:nth-child(6) {
+          padding-top: 900px;
+        }
+      }
+      @media screen and (max-width: 690px) {
+        .slide-features {
+          padding-top: 900px;
+        }
+      }
+    } //parent slide
+  } //parent carousel
+} //end parent

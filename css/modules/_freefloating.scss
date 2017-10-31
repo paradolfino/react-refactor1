@@ -1,0 +1,278 @@
+@import './_variables.scss';
+/*by component-type: first free-floating componenets like all-navigation and all-footer
+then page components*/
+//navigation
+#navigation {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: -8px;
+  height: 7em;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  #nav-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    font-size: 1.3em;
+    color: gray;
+    position: relative;
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    i, strong {
+      color: #ff3300;
+    }
+  }
+  #nav-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .nav-btn {
+      margin-left: 10px;
+      border: none;
+      font-size: 1.3em;
+      font-weight: bold;
+      color: gray;
+      background-color: rgba(255,255,255,0);
+      &:hover {
+        cursor: pointer;
+        color: #ff3300;
+      }
+    }
+  }
+  #collapse {
+    //collapse icon
+    display: none;
+    color: #ff3300;
+  }
+
+  //navigation queries
+  @media #{$laptop-m} {
+    height: 5em;
+    #nav-logo {
+      font-size: 1em;
+    }
+    #nav-btns {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .nav-btn {
+        font-size: 1em;
+      }
+    }
+  }
+  @media #{$laptop-s} {
+    height: 2em;
+    grid-template-columns: 50% 50%;
+    #nav-logo {
+      justify-content: flex-start;
+      align-items: flex-start;
+      span {
+        padding-top: 5px;
+      }
+    }
+    #nav-btns {
+      justify-content: flex-end;
+      display: none;
+      .nav-btn {
+        margin: 0;
+      }
+    }
+    #collapse {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .collapsed-items {
+      height: 350px;
+      width: 200px;
+      justify-content: flex-start !important;
+      align-items: flex-start;
+      flex-direction: column;
+      background-color: #001a33;
+        .nav-btn {
+          padding: 20px;
+          width: 100%;
+          text-align: left;
+          &:hover {
+            cursor: pointer;
+            color: #ff3300;
+          }
+        }
+    }
+  }
+  //
+}
+
+//jumbotron
+#jumbo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 350px;
+  font-size: 1.4em;
+  color: white;
+  background-color: #003366;
+  transition: all 1s;
+  div {
+    text-align: center;
+    width: 70%;
+  }
+  @media #{$laptop-s} {
+    font-size: 1em;
+  }
+  @media screen and (max-width: 520px) {
+    font-size: 0.8em;
+    div {
+      p {
+        display: none;
+      }
+    }
+  }
+}
+
+//carousel general css that will apply to all carousels
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //height: 100%;
+  height: 541.199px;
+  overflow-y: scroll;
+  .slide {
+    display: grid;
+    width: 70%;
+    text-align: center;
+    #slide-top {
+          h1 {
+            color: #ff3300;
+          }
+          h3 {
+            color: gray;
+          }
+     }
+  }
+  #slide-controls {
+    //border: 1px solid #ff3300;
+    .slide-btn {
+      color: #0099ff;
+      background-color: rgba(255,255,255,0);
+      border: none;
+      &:hover {
+        cursor: pointer;
+        color: #ff3300;
+      }
+    }
+  }
+  @media screen and (max-width: 2014px) {
+    .slide {
+      width: 100%;
+    }
+  }
+  @media #{$laptop-l} {
+    overflow-y: scroll;
+    .slide{
+      display: block;
+      width: 90%;
+      #slide-top{
+        .card {
+          h3 {
+            font-size: 0.9em;
+          }
+        }
+      }
+    }
+  }
+}
+
+//special slide types
+//two row-h1/h3-3 cards
+//two row
+
+//footer
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-color: #00284d;
+  #footer-info {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    width: 100%;
+    #f-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      .card {
+        ul {
+          list-style: none;
+          span {
+            color: white;
+            strong {
+              color: #ff3300;
+            }
+          }
+          li {
+            color: gray;
+            &:hover {
+              cursor: pointer;
+              color: #ff3300;
+            }
+          }
+        }
+      }
+    }
+    #f-social {
+      display: flex;
+      justify-content: center;
+        a {
+          margin-right: 30px;
+          color: white;
+          text-decoration: none;
+          &:hover {
+                color: #ff3300;
+          }
+       }
+      span {
+            font-size: 0.8em;
+            font-weight: normal;
+            color: #0099ff;
+        strong {
+          color: #ff3300;
+          &:hover {
+            cursor: pointer;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1106px) {
+    #footer-info {
+      grid-template-columns: 100%;
+      grid-template-rows: 50% 50%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    height: 500px;
+    #footer-info {
+      #f-cards {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+      }
+    }
+  }
+  @media screen and (max-width: 492px) {
+    #footer-info {
+      #f-social {
+        text-align: center;
+      }
+    }
+  }
+}
+
+//end free-floater
