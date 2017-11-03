@@ -8891,11 +8891,15 @@
 
 	var _howwehelp2 = _interopRequireDefault(_howwehelp);
 
-	var _allNavigation = __webpack_require__(334);
+	var _pricing = __webpack_require__(334);
+
+	var _pricing2 = _interopRequireDefault(_pricing);
+
+	var _allNavigation = __webpack_require__(337);
 
 	var _allNavigation2 = _interopRequireDefault(_allNavigation);
 
-	var _allFooter = __webpack_require__(335);
+	var _allFooter = __webpack_require__(338);
 
 	var _allFooter2 = _interopRequireDefault(_allFooter);
 
@@ -8927,7 +8931,8 @@
 	    _this.pages = {
 	      Index: _index2.default,
 	      Features: _features2.default,
-	      HowWeHelp: _howwehelp2.default
+	      HowWeHelp: _howwehelp2.default,
+	      Pricing: _pricing2.default
 	    };
 
 	    //bindings
@@ -10999,6 +11004,209 @@
 
 /***/ }),
 /* 334 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _allJumbo = __webpack_require__(328);
+
+	var _allJumbo2 = _interopRequireDefault(_allJumbo);
+
+	var _pricingContent = __webpack_require__(335);
+
+	var _pricingContent2 = _interopRequireDefault(_pricingContent);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Pricing = function (_React$Component) {
+	  _inherits(Pricing, _React$Component);
+
+	  function Pricing(props) {
+	    _classCallCheck(this, Pricing);
+
+	    var _this = _possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).call(this, props));
+
+	    _this.settings = {
+	      header: 'Våsa Broadkaster og Massa Tekste Servësa',
+	      sub: 'Send ëmportant alerte, notëfëkadje, og remëndrare i yøst mënøte med ör altomatda messadjer servësa.'
+
+	    };
+
+	    return _this;
+	  }
+
+	  _createClass(Pricing, [{
+	    key: 'render',
+	    value: function render() {
+	      return React.createElement(
+	        'div',
+	        { id: 'page-pricing', className: 'page' },
+	        React.createElement(_allJumbo2.default, { header: this.settings.header, sub: this.settings.sub }),
+	        React.createElement(_pricingContent2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Pricing;
+	}(React.Component);
+
+		exports.default = Pricing;
+
+/***/ }),
+/* 335 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _pricingContentLargecard = __webpack_require__(336);
+
+	var _pricingContentLargecard2 = _interopRequireDefault(_pricingContentLargecard);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var PricingContent = function (_React$Component) {
+	  _inherits(PricingContent, _React$Component);
+
+	  function PricingContent(props) {
+	    _classCallCheck(this, PricingContent);
+
+	    var _this = _possibleConstructorReturn(this, (PricingContent.__proto__ || Object.getPrototypeOf(PricingContent)).call(this, props));
+
+	    _this.leftItems = [['100-2499', '9.0C'], ['2500-4999', '8.5C']];
+	    return _this;
+	  }
+
+	  _createClass(PricingContent, [{
+	    key: 'render',
+	    value: function render() {
+	      return React.createElement(
+	        'div',
+	        { id: 'pricing-content' },
+	        React.createElement(_pricingContentLargecard2.default, {
+	          topHead: 'CREDITS',
+	          topPricePrefix: 'LOW AS',
+	          topPriceLeft: '5',
+	          topPriceRightTop: 'C',
+	          topPriceRightBot: 'EACH',
+	          topPara: 'When you need to communicate with a different or constantly changing group. Pay as you go.\nOne 30 second call = 1 credit\nOne 160 character text = 1 credit',
+	          tableHeadLeft: 'Credits',
+	          tableHeadRight: 'Price Per Credit',
+	          tableItems: this.leftItems,
+	          tableBottom: 'Need more than 100k? Call 877-226-3080',
+	          ctaButton: 'Buy Credits'
+	        })
+	      );
+	    }
+	  }]);
+
+	  return PricingContent;
+	}(React.Component);
+
+		exports.default = PricingContent;
+
+/***/ }),
+/* 336 */
+/***/ (function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	function LargeCard(props) {
+	  return React.createElement(
+	    'div',
+	    { className: 'largecard' },
+	    React.createElement(
+	      'div',
+	      { className: 'largecard-top' },
+	      React.createElement(
+	        'div',
+	        { className: 'lc-head' },
+	        React.createElement(
+	          'h1',
+	          null,
+	          props.topHead
+	        )
+	      ),
+	      React.createElement(
+	        'div',
+	        { className: 'lc-price' },
+	        React.createElement(
+	          'div',
+	          { className: 'lc-price-left' },
+	          React.createElement(
+	            'h2',
+	            null,
+	            props.topPriceLeft
+	          )
+	        ),
+	        React.createElement(
+	          'div',
+	          { className: 'lc-price-right' },
+	          React.createElement(
+	            'div',
+	            { className: 'lc-price-right-top' },
+	            React.createElement(
+	              'h3',
+	              null,
+	              props.topPriceRightTop
+	            )
+	          ),
+	          React.createElement(
+	            'div',
+	            { className: 'lc-price-right-bot' },
+	            React.createElement(
+	              'h4',
+	              null,
+	              props.topPriceRightBot
+	            )
+	          )
+	        )
+	      ),
+	      React.createElement(
+	        'div',
+	        { className: 'lc-para' },
+	        React.createElement(
+	          'p',
+	          null,
+	          props.topPara
+	        )
+	      )
+	    ),
+	    React.createElement('div', { className: 'largecard-table' }),
+	    React.createElement('div', { className: 'largecard-bot' })
+	  );
+	}
+
+	exports.default = LargeCard;
+
+/***/ }),
+/* 337 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -11165,7 +11373,7 @@
 		exports.default = Navigation;
 
 /***/ }),
-/* 335 */
+/* 338 */
 /***/ (function(module, exports) {
 
 	'use strict';

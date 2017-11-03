@@ -160,14 +160,21 @@
       }//
       //end slide
       //specific media queries for each slide's breakpoint
-       @media screen and (max-width: 1046px) {
-         #slide-howwehelp {
-           padding-top: 500px;
-         }
-         &:nth-child(4) {
-           padding-top: 300px;
-         }
-       }
+      @media screen and (max-width: 1552px) {
+        &:nth-child(1) {
+          padding-top: 300px;
+        }
+      }
+      @media screen and (max-width: 1064px) {
+        &:nth-child(2) {
+          padding-top: 300px;
+        }
+      }
+      @media screen and (max-width: 785px) {
+        &:nth-child(1) {
+          padding-top: 555px;
+        }
+      }
       @media screen and (max-width: 744px) {
         &:nth-child(4) {
           #slide-bot {
@@ -190,12 +197,19 @@
          }
       }
       @media screen and (max-width: 708px) {
+        padding-top: 100px;
         &:nth-child(4) {
-           padding-top: 900px;
+          #slide-top {
+            display: grid;
+            grid-template-rows: 50% 50%;
+          }
          }
       }
-      @media screen and (max-width: 536px){
-        #slide-howwehelp {
+      @media screen and (max-width: 535px){
+        &:nth-child(1) {
+           padding-top: 1500px;
+         }
+        &:nth-child(2) {
            padding-top: 900px;
          }
       }

@@ -2,6 +2,7 @@
 import Index from './components/pages/index';
 import Features from './components/pages/features';
 import HowWeHelp from './components/pages/howwehelp';
+import Pricing from './components/pages/pricing';
 //elements
 import Navigation from './components/elements/all-navigation';
 import Footer from './components/elements/all-footer';
@@ -19,7 +20,8 @@ class App extends React.Component {
     this.pages = {
       Index: Index,
       Features: Features,
-      HowWeHelp: HowWeHelp
+      HowWeHelp: HowWeHelp,
+      Pricing: Pricing
     };
     
     //bindings

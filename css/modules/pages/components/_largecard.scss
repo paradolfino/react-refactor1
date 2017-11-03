@@ -1,0 +1,31 @@
+.largecard {
+  display: grid;
+  grid-template-rows: 1fr 2.5fr 0.5fr;
+  height: 885px;
+  width: 441px;
+  border: 1px solid black;
+  .largecard-top {
+    display: grid;
+    grid-template-rows: 0.5fr 1.5fr 2fr; 
+    border-bottom: 1px solid red;
+    .lc-head {
+      border: 1px solid blue;
+    }
+    .lc-price {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      border: 1px solid blue;
+      .lc-price-right {
+        display: grid;
+        grid-template-rows: 2fr 2fr;
+        border: 1px solid green;
+        .lc-price-right-top {
+          border: 1px solid orange;
+        }
+        .lc-price-right-bot {
+          border: 1px solid orange;
+        }
+      }
+    }
+  }
+}
