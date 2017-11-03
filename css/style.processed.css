@@ -767,52 +767,6 @@
   }
 }
 
-.largecard {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 1fr 2.5fr 0.5fr;
-  grid-template-rows: 1fr 2.5fr 0.5fr;
-  height: 885px;
-  width: 441px;
-  border: 1px solid black;
-}
-
-.largecard .largecard-top {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 0.5fr 1.5fr 2fr;
-  grid-template-rows: 0.5fr 1.5fr 2fr;
-  border-bottom: 1px solid red;
-}
-
-.largecard .largecard-top .lc-head {
-  border: 1px solid blue;
-}
-
-.largecard .largecard-top .lc-price {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr;
-  grid-template-columns: 2fr 2fr;
-  border: 1px solid blue;
-}
-
-.largecard .largecard-top .lc-price .lc-price-right {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 2fr 2fr;
-  grid-template-rows: 2fr 2fr;
-  border: 1px solid green;
-}
-
-.largecard .largecard-top .lc-price .lc-price-right .lc-price-right-top {
-  border: 1px solid orange;
-}
-
-.largecard .largecard-top .lc-price .lc-price-right .lc-price-right-bot {
-  border: 1px solid orange;
-}
-
 /*by component-type: first free-floating componenets like all-navigation and all-footer
 then page components*/
 

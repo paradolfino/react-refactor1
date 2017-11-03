@@ -1,9 +1,5 @@
-@import './pages/components/_largecard';
-  
-  //breakpoints that may or may not be used more than once. Refer to specific pages for really detailed queries
-$laptop-l: "screen and (max-width: 1578px)";
-$laptop-m: "screen and (max-width: 1240px)";
-$laptop-s: "screen and (max-width: 1010px)";
+@import './_variables';
+
 /*by component-type: first free-floating componenets like all-navigation and all-footer
 then page components*/
 //navigation

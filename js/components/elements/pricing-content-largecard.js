@@ -1,12 +1,13 @@
 function LargeCard(props) {
     return (
       <div className='largecard'>
-        <div className='largecard-top'>
+        <div className='largecard-left'>
           <div className='lc-head'>
             <h1>{props.topHead}</h1>
           </div>
           <div className='lc-price'>
             <div className='lc-price-left'>
+              <span>{props.topPricePrefix}</span>
               <h2>{props.topPriceLeft}</h2>
             </div>
             <div className='lc-price-right'>
@@ -22,9 +23,10 @@ function LargeCard(props) {
             <p>{props.topPara}</p>
           </div>
         </div>
-        <div className='largecard-table'>
-        </div>
-        <div className='largecard-bot'>
+        
+        <div className='largecard-right'>
+          <div className='largecard-table'>
+          </div>
         </div>
       </div>
     );

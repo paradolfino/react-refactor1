@@ -11143,7 +11143,7 @@
 	    { className: 'largecard' },
 	    React.createElement(
 	      'div',
-	      { className: 'largecard-top' },
+	      { className: 'largecard-left' },
 	      React.createElement(
 	        'div',
 	        { className: 'lc-head' },
@@ -11159,6 +11159,11 @@
 	        React.createElement(
 	          'div',
 	          { className: 'lc-price-left' },
+	          React.createElement(
+	            'span',
+	            null,
+	            props.topPricePrefix
+	          ),
 	          React.createElement(
 	            'h2',
 	            null,
@@ -11198,8 +11203,11 @@
 	        )
 	      )
 	    ),
-	    React.createElement('div', { className: 'largecard-table' }),
-	    React.createElement('div', { className: 'largecard-bot' })
+	    React.createElement(
+	      'div',
+	      { className: 'largecard-right' },
+	      React.createElement('div', { className: 'largecard-table' })
+	    )
 	  );
 	}
 

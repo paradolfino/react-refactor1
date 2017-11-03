@@ -1,0 +1,57 @@
+#page-pricing {  
+  .largecard {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    height: 500px;
+    width: 600px;
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 600px;
+    min-width: 600px;
+    border: 1px solid black;
+    .largecard-left {
+      display: grid;
+      grid-template-rows: 0.5fr 1.5fr auto; 
+      border-bottom: 1px solid red;
+      .lc-head {
+        text-align: center;
+        border: 1px solid blue;
+      }
+      .lc-price {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: right;
+        border: 1px solid blue;
+        .lc-price-left {
+          display: inline-flex;
+          justify-content: flex-end;
+          span {
+            margin-top: 45px;
+          }
+          h2 {
+            margin-top: -30px;
+            font-size: 9em;
+          }
+
+        }
+        .lc-price-right {
+          display: grid;
+          grid-template-rows: auto 3fr;
+          text-align: left;
+          border: 1px solid green;
+          .lc-price-right-top {
+            font-size: 1.6em;
+            border: 1px solid orange;
+          }
+          .lc-price-right-bot {
+            font-size: 1.4em;
+            border: 1px solid orange;
+            h4 {
+              margin-top: -30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
