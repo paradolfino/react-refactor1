@@ -25,7 +25,30 @@ function LargeCard(props) {
         </div>
         
         <div className='largecard-right'>
-          <div className='largecard-table'>
+          <div className='lc-table-head'>
+            <div><span>{props.tableHeadLeft}</span></div>
+            <div><span>{props.tableHeadRight}</span></div>
+          </div>
+          <div className='lc-table-body'>
+            <div className='table-container'>
+            {props.tableItems.map((item,index)=>{
+              
+                return (
+                  <div id={index}>
+                    
+                    <div className='left'><span>{item[0]}</span></div><div className='right'><span>{item[1]}</span></div>
+                    
+                  </div>
+                );
+            })}
+            </div>
+            
+          </div>
+          <div className='lc-table-bottom'>
+              <h4>{props.tableBottom}</h4>
+          </div>
+          <div className='lc-call-to-action'>
+              <button>{props.ctaButton}</button>
           </div>
         </div>
       </div>

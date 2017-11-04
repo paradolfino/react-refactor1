@@ -767,6 +767,130 @@
   }
 }
 
+#page-pricing .largecard {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
+  height: 500px;
+  width: 600px;
+  max-height: 500px;
+  min-height: 500px;
+  max-width: 600px;
+  min-width: 600px;
+  border: 1px solid black;
+}
+
+#page-pricing .largecard .largecard-left {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.5fr 1.5fr auto;
+  grid-template-rows: 0.5fr 1.5fr auto;
+}
+
+#page-pricing .largecard .largecard-left .lc-head {
+  text-align: center;
+}
+
+#page-pricing .largecard .largecard-left .lc-price {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
+  text-align: right;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-left {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-left span {
+  margin-top: 45px;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-left h2 {
+  margin-top: -30px;
+  font-size: 9em;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 3fr;
+  grid-template-rows: auto 3fr;
+  text-align: left;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-top {
+  font-size: 1.6em;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-bot {
+  font-size: 1.4em;
+}
+
+#page-pricing .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-bot h4 {
+  margin-top: -30px;
+}
+
+#page-pricing .largecard .largecard-right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.2fr 3fr 0.5fr 0.5fr;
+  grid-template-rows: 0.2fr 3fr 0.5fr 0.5fr;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-head {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-head div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-body .table-container {
+  width: 100%;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-body .table-container div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-body .table-container div .left {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#page-pricing .largecard .largecard-right .lc-table-body .table-container div .right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
 /*by component-type: first free-floating componenets like all-navigation and all-footer
 then page components*/
 

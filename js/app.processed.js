@@ -11096,7 +11096,8 @@
 
 	    var _this = _possibleConstructorReturn(this, (PricingContent.__proto__ || Object.getPrototypeOf(PricingContent)).call(this, props));
 
-	    _this.leftItems = [['100-2499', '9.0C'], ['2500-4999', '8.5C']];
+	    _this.leftCard = [['100 - 2,499', '9.0 ¢'], ['2,500 - 4,999', '8.5 ¢'], ['5,000 - 9,999', '7.5 ¢'], ['10,000 - 19,999', '7.0 ¢'], ['20,000 - 49,999', '6.5 ¢'], ['50,000 - 99,999', '6.0 ¢']]; //for those who stumble onto this code - you must define a new array for every different card to have unique data in each. - Viktharien
+	    _this.rightCard = [];
 	    return _this;
 	  }
 
@@ -11110,12 +11111,12 @@
 	          topHead: 'CREDITS',
 	          topPricePrefix: 'LOW AS',
 	          topPriceLeft: '5',
-	          topPriceRightTop: 'C',
+	          topPriceRightTop: '\xA2',
 	          topPriceRightBot: 'EACH',
 	          topPara: 'When you need to communicate with a different or constantly changing group. Pay as you go.\nOne 30 second call = 1 credit\nOne 160 character text = 1 credit',
 	          tableHeadLeft: 'Credits',
 	          tableHeadRight: 'Price Per Credit',
-	          tableItems: this.leftItems,
+	          tableItems: this.leftCard,
 	          tableBottom: 'Need more than 100k? Call 877-226-3080',
 	          ctaButton: 'Buy Credits'
 	        })
@@ -11206,7 +11207,79 @@
 	    React.createElement(
 	      'div',
 	      { className: 'largecard-right' },
-	      React.createElement('div', { className: 'largecard-table' })
+	      React.createElement(
+	        'div',
+	        { className: 'lc-table-head' },
+	        React.createElement(
+	          'div',
+	          null,
+	          React.createElement(
+	            'span',
+	            null,
+	            props.tableHeadLeft
+	          )
+	        ),
+	        React.createElement(
+	          'div',
+	          null,
+	          React.createElement(
+	            'span',
+	            null,
+	            props.tableHeadRight
+	          )
+	        )
+	      ),
+	      React.createElement(
+	        'div',
+	        { className: 'lc-table-body' },
+	        React.createElement(
+	          'div',
+	          { className: 'table-container' },
+	          props.tableItems.map(function (item, index) {
+
+	            return React.createElement(
+	              'div',
+	              { id: index },
+	              React.createElement(
+	                'div',
+	                { className: 'left' },
+	                React.createElement(
+	                  'span',
+	                  null,
+	                  item[0]
+	                )
+	              ),
+	              React.createElement(
+	                'div',
+	                { className: 'right' },
+	                React.createElement(
+	                  'span',
+	                  null,
+	                  item[1]
+	                )
+	              )
+	            );
+	          })
+	        )
+	      ),
+	      React.createElement(
+	        'div',
+	        { className: 'lc-table-bottom' },
+	        React.createElement(
+	          'h4',
+	          null,
+	          props.tableBottom
+	        )
+	      ),
+	      React.createElement(
+	        'div',
+	        { className: 'lc-call-to-action' },
+	        React.createElement(
+	          'button',
+	          null,
+	          props.ctaButton
+	        )
+	      )
 	    )
 	  );
 	}
