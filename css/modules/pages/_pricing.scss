@@ -1,87 +1,216 @@
-#page-pricing {  
-  .largecard {//-
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    height: 500px;
-    width: 600px;
-    max-height: 500px;
-    min-height: 500px;
-    max-width: 600px;
-    min-width: 600px;
-    border: 1px solid black;
-    .largecard-left {//--
+$main: #003366;
+$price: #ffffff;
+$table-border: #d9d9d9;
+$table-cell: #f2f2f2;
+#page-pricing {
+  #pricing-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .largecard {
+      //-
       display: grid;
-      grid-template-rows: 0.5fr 1.5fr auto; 
-      .lc-head {//---
-        text-align: center;
-      }
-      .lc-price {//---
+      grid-template-columns: 2fr 2fr;
+      height: 500px;
+      width: 600px;
+      max-height: 500px;
+      min-height: 500px;
+      max-width: 600px;
+      min-width: 600px;
+
+      .largecard-left {
+        //--
         display: grid;
-        grid-template-columns: 2fr 2fr;
-        text-align: right;
-        .lc-price-left {//----
-          display: inline-flex;
-          justify-content: flex-end;
-          span {
-            margin-top: 45px;
-          }
-          h2 {
-            margin-top: -30px;
-            font-size: 9em;
-          }
+        grid-template-rows: 0.5fr 1.5fr auto;
+
+        .lc-head {
+          //---
+          text-align: center;
         }
-        .lc-price-right {//----
+        .lc-price {
+          //---
           display: grid;
-          grid-template-rows: auto 3fr;
-          text-align: left;
+          grid-template-columns: 2fr 2fr;
+          text-align: right;
 
-          .lc-price-right-top {
-            font-size: 1.6em;
-
-          }
-          .lc-price-right-bot {
-            font-size: 1.4em;
-
-            h4 {
+          .lc-price-left {
+            //----
+            display: inline-flex;
+            justify-content: flex-end;
+            span {
+              margin-top: 45px;
+            }
+            h2 {
               margin-top: -30px;
+              font-size: 9em;
+            }
+          }
+          .lc-price-right {
+            //----
+            display: grid;
+            grid-template-rows: auto 3fr;
+            text-align: left;
+
+            .lc-price-right-top {
+              font-size: 1.6em;
+            }
+            .lc-price-right-bot {
+              font-size: 1.4em;
+
+              h4 {
+                margin-top: -30px;
+              }
             }
           }
         }
+        .lc-para {
+          text-align: center;
+        }
       }
-    }
-    .largecard-right {
-      display: grid;
-      grid-template-rows: 0.2fr 3fr 0.5fr 0.5fr;
-      .lc-table-head {
+      .largecard-right {
         display: grid;
-        grid-template-columns: 2fr 2fr;
-        div {
+        grid-template-rows: 0.4fr 2.5fr 0.4fr 1fr;
+        .lc-table-head {
+          display: grid;
+          grid-template-columns: 2fr 2fr;
+
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+          }
+        }
+        .lc-table-body {
           display: flex;
           justify-content: center;
-          align-items: flex-end;
-        }
-      }
-      .lc-table-body {
-        display: flex;
-        justify-content: center;
-        .table-container {
-          width: 100%;
-          div {
-            display: grid;
-            grid-template-columns: 2fr 2fr;
-            .left {
-              display: flex;
-              justify-content: center;
-              
-            }
-            .right {
-              display: flex;
-              justify-content: center;
+          .table-container {
+            width: 100%;
+
+            div {
+              display: grid;
+              grid-template-columns: 2fr 2fr;
+              padding: 5px;
+
+              .left {
+                display: flex;
+                justify-content: center;
+              }
+              .right {
+                display: flex;
+                justify-content: center;
+              }
             }
           }
-          
+        }
+        .lc-table-bottom {
+          text-align: center;
+        }
+        .lc-call-to-action {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          button {
+            padding: 20px;
+            color: white;
+            border: none;
+            border-radius: 30px;
+          }
         }
       }
-    }
+      &:nth-child(1) {//separate the cards for unique colors
+        $second: #00cccc;
+        border-bottom: 1px $main;
+        border-right: 1px solid $main;
+        .largecard-left {
+          background-color: $main;
+          .lc-head {
+            color: $second;
+          }
+          .lc-price {
+            color: $price;
+          }
+          .lc-para {
+            color: $table-border;
+          }
+        }
+
+        .largecard-right {
+          .lc-table-head {
+            background-color: $second;
+            div {
+              color: $price;
+            }
+          }
+          .lc-table-body {
+            .table-container {
+              border: 1px solid $table-border;
+              div {
+                .right {
+                  background-color: $table-cell;
+                }
+              }
+            }
+          }
+          .lc-call-to-action {
+            background-color: $main;
+            button {
+              color: $price;
+              background-color: $second;
+            }
+          }
+        }
+      }//end child
+      &:nth-child(2) {//separate the cards for unique colors
+        $second: #00cc66;
+        border-bottom: 1px $main;
+        border-right: 1px solid $main;
+        .largecard-left {
+          background-color: $main;
+          .lc-head {
+            color: $second;
+          }
+          .lc-price {
+            color: $price;
+            .lc-price-left {
+              h2 {
+                margin-right: 5px;
+                margin-left: 5px;
+              }
+            }
+          }
+          .lc-para {
+            color: $table-border;
+          }
+        }
+
+        .largecard-right {
+          .lc-table-head {
+            background-color: $second;
+            div {
+              color: $price;
+            }
+          }
+          .lc-table-body {
+            .table-container {
+              border: 1px solid $table-border;
+              div {
+                .right {
+                  background-color: $table-cell;
+                }
+              }
+            }
+          }
+          .lc-call-to-action {
+            background-color: $main;
+            button {
+              color: $price;
+              background-color: $second;
+            }
+          }
+        }
+      }//end child
+    } //end of parent
   }
 }

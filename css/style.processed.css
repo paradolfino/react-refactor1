@@ -767,7 +767,16 @@
   }
 }
 
-#page-pricing .largecard {
+#page-pricing #pricing-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#page-pricing #pricing-content .largecard {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr;
@@ -778,21 +787,20 @@
   min-height: 500px;
   max-width: 600px;
   min-width: 600px;
-  border: 1px solid black;
 }
 
-#page-pricing .largecard .largecard-left {
+#page-pricing #pricing-content .largecard .largecard-left {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: 0.5fr 1.5fr auto;
   grid-template-rows: 0.5fr 1.5fr auto;
 }
 
-#page-pricing .largecard .largecard-left .lc-head {
+#page-pricing #pricing-content .largecard .largecard-left .lc-head {
   text-align: center;
 }
 
-#page-pricing .largecard .largecard-left .lc-price {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr;
@@ -800,23 +808,23 @@
   text-align: right;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-left {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-left {
   display: -ms-inline-flexbox;
   display: inline-flex;
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-left span {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-left span {
   margin-top: 45px;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-left h2 {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-left h2 {
   margin-top: -30px;
   font-size: 9em;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-right {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-right {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto 3fr;
@@ -824,72 +832,204 @@
   text-align: left;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-top {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-top {
   font-size: 1.6em;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-bot {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-bot {
   font-size: 1.4em;
 }
 
-#page-pricing .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-bot h4 {
+#page-pricing #pricing-content .largecard .largecard-left .lc-price .lc-price-right .lc-price-right-bot h4 {
   margin-top: -30px;
 }
 
-#page-pricing .largecard .largecard-right {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 0.2fr 3fr 0.5fr 0.5fr;
-  grid-template-rows: 0.2fr 3fr 0.5fr 0.5fr;
+#page-pricing #pricing-content .largecard .largecard-left .lc-para {
+  text-align: center;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-head {
+#page-pricing #pricing-content .largecard .largecard-right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.4fr 2.5fr 0.4fr 1fr;
+  grid-template-rows: 0.4fr 2.5fr 0.4fr 1fr;
+}
+
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-head {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr;
   grid-template-columns: 2fr 2fr;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-head div {
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-head div {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.2em;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-body {
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-body .table-container {
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-body .table-container {
   width: 100%;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-body .table-container div {
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-body .table-container div {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2fr 2fr;
   grid-template-columns: 2fr 2fr;
+  padding: 5px;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-body .table-container div .left {
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-body .table-container div .left {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
 }
 
-#page-pricing .largecard .largecard-right .lc-table-body .table-container div .right {
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-body .table-container div .right {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
   justify-content: center;
 }
+
+#page-pricing #pricing-content .largecard .largecard-right .lc-table-bottom {
+  text-align: center;
+}
+
+#page-pricing #pricing-content .largecard .largecard-right .lc-call-to-action {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#page-pricing #pricing-content .largecard .largecard-right .lc-call-to-action button {
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 30px;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) {
+  border-bottom: 1px #003366;
+  border-right: 1px solid #003366;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-left {
+  background-color: #003366;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-left .lc-head {
+  color: #00cccc;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-left .lc-price {
+  color: #ffffff;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-left .lc-para {
+  color: #d9d9d9;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-right .lc-table-head {
+  background-color: #00cccc;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-right .lc-table-head div {
+  color: #ffffff;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-right .lc-table-body .table-container {
+  border: 1px solid #d9d9d9;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-right .lc-table-body .table-container div .right {
+  background-color: #f2f2f2;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-right .lc-call-to-action {
+  background-color: #003366;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(1) .largecard-right .lc-call-to-action button {
+  color: #ffffff;
+  background-color: #00cccc;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) {
+  border-bottom: 1px #003366;
+  border-right: 1px solid #003366;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-left {
+  background-color: #003366;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-left .lc-head {
+  color: #00cc66;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-left .lc-price {
+  color: #ffffff;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-left .lc-price .lc-price-left h2 {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-left .lc-para {
+  color: #d9d9d9;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-table-head {
+  background-color: #00cc66;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-table-head div {
+  color: #ffffff;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-table-body .table-container {
+  border: 1px solid #d9d9d9;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-table-body .table-container div .right {
+  background-color: #f2f2f2;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-call-to-action {
+  background-color: #003366;
+}
+
+#page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-call-to-action button {
+  color: #ffffff;
+  background-color: #00cc66;
+}
+
+/*
+$lc-left-main-color;
+$lc-left-header-color;
+$lc-left-price-color;
+$lc-left-subhead-color;
+$lc-left-color-lightgray;
+$lc-left-color-gray;
+*/
 
 /*by component-type: first free-floating componenets like all-navigation and all-footer
 then page components*/
