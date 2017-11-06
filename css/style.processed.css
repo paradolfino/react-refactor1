@@ -774,6 +774,7 @@
   justify-content: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-top: 25px;
 }
 
 #page-pricing #pricing-content .largecard {
@@ -1020,6 +1021,55 @@
 #page-pricing #pricing-content .largecard:nth-child(2) .largecard-right .lc-call-to-action button {
   color: #ffffff;
   background-color: #00cc66;
+}
+
+@media screen and (max-width: 1220px) {
+  #page-pricing #pricing-content {
+    overflow-y: scroll;
+  }
+  #page-pricing #pricing-content .largecard {
+    -ms-grid-columns: 4fr;
+    grid-template-columns: 4fr;
+    -ms-grid-rows: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    height: 500px;
+    width: 400px;
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 400px;
+    min-width: 400px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  #page-pricing #pricing-content {
+    overflow-y: scroll;
+  }
+  #page-pricing #pricing-content .largecard {
+    -ms-grid-columns: 4fr;
+    grid-template-columns: 4fr;
+    -ms-grid-rows: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    height: 500px;
+    width: 300px;
+    max-height: 500px;
+    min-height: 500px;
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  #page-pricing {
+    overflow-y: scroll;
+  }
+  #page-pricing #pricing-content {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #page-pricing #pricing-content .largecard {
+    margin-bottom: 500px;
+  }
 }
 
 /*

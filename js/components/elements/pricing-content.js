@@ -33,7 +33,7 @@ One 160 character text = 1 credit'
 Call and text as much as you need.'
           tableHeadLeft='Phone Numbers'
           tableHeadRight='Price Per Month'
-          tableItems={this.leftCard}
+          tableItems={this.rightCard}
           tableBottom='Have more than 400 people?'
           ctaButton='Buy Monthly'
           />

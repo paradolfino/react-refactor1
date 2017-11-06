@@ -6,8 +6,8 @@ class Pricing extends React.Component {
   constructor(props) {
     super(props);
     this.settings = {
-      header:'Våsa Broadkaster og Massa Tekste Servësa',
-      sub:'Send ëmportant alerte, notëfëkadje, og remëndrare i yøst mënøte med ör altomatda messadjer servësa.',
+      header:'Simple Pricing Plans',
+      sub:'No long-term contracts, no hidden fees, and no fine print to make you cringe. What you see is what you get.',
       
     };
    

@@ -2,21 +2,26 @@ $main: #003366;
 $price: #ffffff;
 $table-border: #d9d9d9;
 $table-cell: #f2f2f2;
+
+
 #page-pricing {
+  $h: 500px;
+  $w: 600px;
   #pricing-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 25px;
     .largecard {
       //-
       display: grid;
       grid-template-columns: 2fr 2fr;
-      height: 500px;
-      width: 600px;
-      max-height: 500px;
-      min-height: 500px;
-      max-width: 600px;
-      min-width: 600px;
+      height: $h;
+      width: $w;
+      max-height: $h;
+      min-height: $h;
+      max-width: $w;
+      min-width: $w;
 
       .largecard-left {
         //--
@@ -211,6 +216,57 @@ $table-cell: #f2f2f2;
           }
         }
       }//end child
+      
+      
     } //end of parent
+    
   }
+  
+  @media screen and (max-width: 1220px) {
+    $h: 500px;
+    $w: 400px;
+    #pricing-content {
+      overflow-y: scroll;
+      .largecard {
+        grid-template-columns: 4fr;
+        grid-template-rows: 2fr 2fr;
+        height: $h;
+        width: $w;
+        max-height: $h;
+        min-height: $h;
+        max-width: $w;
+        min-width: $w;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 810px) {
+    $w: 300px;
+    #pricing-content {
+      overflow-y: scroll;
+      .largecard {
+        grid-template-columns: 4fr;
+        grid-template-rows: 2fr 2fr;
+        height: $h;
+        width: $w;
+        max-height: $h;
+        min-height: $h;
+        max-width: $w;
+        min-width: $w;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 610px) {
+    overflow-y: scroll;
+    #pricing-content {
+      flex-wrap: wrap;
+      .largecard {
+        margin-bottom: 500px;
+
+      }
+    }
+  }
+        
+      
 }

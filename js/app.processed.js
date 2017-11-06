@@ -11039,8 +11039,8 @@
 	    var _this = _possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).call(this, props));
 
 	    _this.settings = {
-	      header: 'Våsa Broadkaster og Massa Tekste Servësa',
-	      sub: 'Send ëmportant alerte, notëfëkadje, og remëndrare i yøst mënøte med ör altomatda messadjer servësa.'
+	      header: 'Simple Pricing Plans',
+	      sub: 'No long-term contracts, no hidden fees, and no fine print to make you cringe. What you see is what you get.'
 
 	    };
 
@@ -11129,7 +11129,7 @@
 	          topPara: 'When you message the same group of people every month. Each phone number is a contact.\nCall and text as much as you need.',
 	          tableHeadLeft: 'Phone Numbers',
 	          tableHeadRight: 'Price Per Month',
-	          tableItems: this.leftCard,
+	          tableItems: this.rightCard,
 	          tableBottom: 'Have more than 400 people?',
 	          ctaButton: 'Buy Monthly'
 	        })
