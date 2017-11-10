@@ -13,7 +13,7 @@ class Navigation extends React.Component {
   componentDidMount() {
     let clicked = 0;
     $('#navigation').click(()=>{
-      this.props.onClick('Index');
+      //this.props.onClick('Index');
     });
   
     $('#collapse').click(()=>{
@@ -45,6 +45,24 @@ class Navigation extends React.Component {
         console.log(clicked);
       }
     });
+    
+    //special button hover functions
+    
+    $('#MeetMe').bind('mouseenter',function(){
+      $(this).html('Meet Me');
+      $(this).css('color','#ff3300');
+    });
+    
+    $('#ContactMe').bind('mouseenter',function(){
+      $(this).html('Contact Me');
+    });
+    
+    $('#Thanks').bind('mouseenter',function(){
+      $(this).html('Thanks!');
+      $(this).css('color','#ff3300');
+    });
+    
+    //
     
     $(window).resize(()=>{
       let winWidth = $(window).width();
@@ -79,9 +97,9 @@ class Navigation extends React.Component {
           <button value='Features' onClick={this.handleClick} className='nav-btn'>Fætøre</button>
           <button value='HowWeHelp' onClick={this.handleClick} className='nav-btn'>Hoh Vi Help</button>
           <button value='Pricing' onClick={this.handleClick} className='nav-btn'>Prëser</button>
-          <button value='MeetUs' onClick={this.handleClick} className='nav-btn'>Mitter Oss</button>
-          <button value='TryIt'  onClick={this.handleClick} className='nav-btn special-btn'>Trå Det</button>
-          <button value='SignIn' onClick={this.handleClick} className='nav-btn'>Sån I</button>
+          <button id='MeetMe' value='MeetUs' onClick={this.handleClick} className='nav-btn'>Mitter Oss</button>
+          <button id='ContactMe' value='TryIt'  onClick={this.handleClick} className='nav-btn special-btn'>Trå Det</button>
+          <button id='Thanks' value='SignIn' onClick={this.handleClick} className='nav-btn'>Sån I</button>
         </div>
         
       </div>

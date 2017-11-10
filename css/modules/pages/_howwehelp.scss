@@ -2,14 +2,9 @@
 #page-howwehelp {
   .carousel {
     .slide{
-      grid-template-rows: 50% 50%;
+          grid-template-rows: 2fr 2fr;
       &:nth-child(1) {
          #slide-bot {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          margin-bottom: 18px;
-          flex-wrap: wrap;
           .card {
             display: flex;
             justify-content: center;

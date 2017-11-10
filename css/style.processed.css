@@ -1,17 +1,10 @@
 #page-index .carousel .slide {
-  -ms-grid-rows: 50% 50%;
-  grid-template-rows: 50% 50%;
+  -ms-grid-rows: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
 }
 
 #page-index .carousel .slide:nth-child(1) #slide-bot {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  margin-bottom: 0;
 }
 
 #page-index .carousel .slide:nth-child(1) #slide-bot .card {
@@ -216,27 +209,15 @@
   }
 }
 
-@media screen and (max-width: 536px) {
+@media screen and (max-width: 545px) {
   #page-index .carousel .slide:nth-child(2) {
     padding-top: 900px;
   }
 }
 
-#page-features .carousel .slide .slide-features {
-  -ms-grid-rows: 50% 50%;
-  grid-template-rows: 50% 50%;
-}
-
-#page-features .carousel .slide .slide-features #slide-bot {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 18px;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+#page-features .carousel .slide {
+  -ms-grid-rows: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
 }
 
 #page-features .carousel .slide .slide-features #slide-bot .card {
@@ -513,20 +494,8 @@
 }
 
 #page-howwehelp .carousel .slide {
-  -ms-grid-rows: 50% 50%;
-  grid-template-rows: 50% 50%;
-}
-
-#page-howwehelp .carousel .slide:nth-child(1) #slide-bot {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 18px;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  -ms-grid-rows: 2fr 2fr;
+  grid-template-rows: 2fr 2fr;
 }
 
 #page-howwehelp .carousel .slide:nth-child(1) #slide-bot .card {
@@ -1072,14 +1041,73 @@
   }
 }
 
-/*
-$lc-left-main-color;
-$lc-left-header-color;
-$lc-left-price-color;
-$lc-left-subhead-color;
-$lc-left-color-lightgray;
-$lc-left-color-gray;
-*/
+#page-meetus .carousel .slide:nth-child(1) {
+  width: 50%;
+}
+
+#page-meetus .carousel .slide:nth-child(1) #slide-bot {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+  grid-template-columns: 2fr 2fr;
+}
+
+#page-meetus .carousel .slide:nth-child(1) #slide-bot div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#page-meetus .carousel .slide:nth-child(1) #slide-bot div div {
+  width: 80%;
+}
+
+#page-meetus .carousel .slide:nth-child(1) #slide-bot div div:nth-child(1) #container {
+  height: 264px;
+  width: 480px;
+  background: gray;
+}
+
+#page-meetus .carousel .slide:nth-child(2) #slide-top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#page-meetus .carousel .slide:nth-child(2) #slide-top div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 70%;
+  color: white;
+  background-color: #0099ff;
+  border-radius: 30px;
+}
+
+#page-meetus .carousel .slide:nth-child(2) #slide-top div a {
+  color: #ff3300;
+}
+
+#page-meetus .carousel .slide:nth-child(2) #slide-bot {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 
 /*by component-type: first free-floating componenets like all-navigation and all-footer
 then page components*/
@@ -1281,6 +1309,18 @@ then page components*/
 
 .carousel .slide #slide-top h3 {
   color: gray;
+}
+
+.carousel .slide #slide-bot {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
 }
 
 .carousel #slide-controls .slide-btn {

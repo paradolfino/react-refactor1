@@ -1,3 +1,4 @@
+
 let auto;
 class Carousel extends React.Component {
   constructor(props) {

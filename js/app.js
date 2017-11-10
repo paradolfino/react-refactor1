@@ -3,6 +3,7 @@ import Index from './components/pages/index';
 import Features from './components/pages/features';
 import HowWeHelp from './components/pages/howwehelp';
 import Pricing from './components/pages/pricing';
+import MeetUs from './components/pages/meetus';
 //elements
 import Navigation from './components/elements/all-navigation';
 import Footer from './components/elements/all-footer';
@@ -21,7 +22,8 @@ class App extends React.Component {
       Index: Index,
       Features: Features,
       HowWeHelp: HowWeHelp,
-      Pricing: Pricing
+      Pricing: Pricing,
+      MeetUs: MeetUs
     };
     
     //bindings
@@ -44,12 +46,16 @@ class App extends React.Component {
     console.log(adjHeight*0.6);
     $('.page').removeClass('animated slideInDown');
     $('.page').addClass('animated slideInDown');
-    //$('.page').css('height',adjHeight);
-    //$('.carousel').css('height',adjHeight*.6);
+    
+
   }
   
   componentDidUpdate() {
     localStorage['Page'] = this.state.page;
+    
+    //check to see if collapsed menu is deployed
+    let displayState = $('#nav-btns').css('display');
+    displayState === 'flex' ? $('#jumbo').css('margin-left','200px') : $('#jumbo').css('margin-left','0');
   }
   
   componentDidUnmount() {

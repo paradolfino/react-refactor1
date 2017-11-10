@@ -1,0 +1,58 @@
+#page-meetus {
+  .carousel {
+    .slide {
+      &:nth-child(1) {
+        width: 50%;
+        #slide-bot {
+          display: grid;
+          grid-template-columns: 2fr 2fr;
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            div {
+              width: 80%;
+              &:nth-child(1) {
+                #container {
+                  height: 264px;
+                  width: 480px;
+                  background: gray;
+                } //container
+              } //end nth-child
+            } //div
+          } //div
+        } //slide-bot
+      } //end slide
+
+      &:nth-child(2) {
+        #slide-top {
+          display: flex;
+          justify-content: center;
+          padding-bottom: 50px;
+          div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            color: white;
+            background-color: #0099ff;
+            border-radius: 30px;
+            a {
+              color: #ff3300;
+            }
+          }
+        }
+        #slide-bot {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        } //end of slide-bot
+      } //
+      //end slide
+
+      
+    } //
+  }
+}

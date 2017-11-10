@@ -3,14 +3,9 @@
 #page-features {
   .carousel {
     .slide {
+          grid-template-rows: 2fr 2fr;
       .slide-features {
-        grid-template-rows: 50% 50%;
         #slide-bot {
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          margin-bottom: 18px;
-          flex-wrap: wrap;
           .card {
             display: flex;
             justify-content: center;

@@ -8895,11 +8895,15 @@
 
 	var _pricing2 = _interopRequireDefault(_pricing);
 
-	var _allNavigation = __webpack_require__(337);
+	var _meetus = __webpack_require__(337);
+
+	var _meetus2 = _interopRequireDefault(_meetus);
+
+	var _allNavigation = __webpack_require__(339);
 
 	var _allNavigation2 = _interopRequireDefault(_allNavigation);
 
-	var _allFooter = __webpack_require__(338);
+	var _allFooter = __webpack_require__(340);
 
 	var _allFooter2 = _interopRequireDefault(_allFooter);
 
@@ -8932,7 +8936,8 @@
 	      Index: _index2.default,
 	      Features: _features2.default,
 	      HowWeHelp: _howwehelp2.default,
-	      Pricing: _pricing2.default
+	      Pricing: _pricing2.default,
+	      MeetUs: _meetus2.default
 	    };
 
 	    //bindings
@@ -8959,13 +8964,15 @@
 	      console.log(adjHeight * 0.6);
 	      $('.page').removeClass('animated slideInDown');
 	      $('.page').addClass('animated slideInDown');
-	      //$('.page').css('height',adjHeight);
-	      //$('.carousel').css('height',adjHeight*.6);
 	    }
 	  }, {
 	    key: 'componentDidUpdate',
 	    value: function componentDidUpdate() {
 	      localStorage['Page'] = this.state.page;
+
+	      //check to see if collapsed menu is deployed
+	      var displayState = $('#nav-btns').css('display');
+	      displayState === 'flex' ? $('#jumbo').css('margin-left', '200px') : $('#jumbo').css('margin-left', '0');
 	    }
 	  }, {
 	    key: 'componentDidUnmount',
@@ -11301,6 +11308,273 @@
 
 /***/ }),
 /* 337 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _allJumbo = __webpack_require__(328);
+
+	var _allJumbo2 = _interopRequireDefault(_allJumbo);
+
+	var _carouselMeetus = __webpack_require__(338);
+
+	var _carouselMeetus2 = _interopRequireDefault(_carouselMeetus);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var MeetUs = function (_React$Component) {
+	  _inherits(MeetUs, _React$Component);
+
+	  function MeetUs(props) {
+	    _classCallCheck(this, MeetUs);
+
+	    var _this = _possibleConstructorReturn(this, (MeetUs.__proto__ || Object.getPrototypeOf(MeetUs)).call(this, props));
+
+	    _this.settings = {
+	      header: "Meet Me",
+	      sub: "There are a lot of software engineers out there. I'm different because I love programming a little TOO much. Like a lotta too much. P.S. I thought it would be clever to have this page reflect me, and it being in English - because I think it's cool when people can understand what you're saying!"
+
+	    };
+	    return _this;
+	  }
+
+	  _createClass(MeetUs, [{
+	    key: "render",
+	    value: function render() {
+	      return React.createElement(
+	        "div",
+	        { id: "page-meetus", className: "page" },
+	        React.createElement(_allJumbo2.default, { header: this.settings.header, sub: this.settings.sub }),
+	        React.createElement(_carouselMeetus2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return MeetUs;
+	}(React.Component);
+
+		exports.default = MeetUs;
+
+/***/ }),
+/* 338 */
+/***/ (function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var auto = void 0;
+
+	var Carousel = function (_React$Component) {
+	  _inherits(Carousel, _React$Component);
+
+	  function Carousel(props) {
+	    _classCallCheck(this, Carousel);
+
+	    var _this = _possibleConstructorReturn(this, (Carousel.__proto__ || Object.getPrototypeOf(Carousel)).call(this, props));
+
+	    _this.slideIndex = 1;
+	    _this.slideManuel = 0;
+	    _this.showSlides = _this.showSlides.bind(_this);
+	    _this.autoSlide = _this.autoSlide.bind(_this);
+	    _this.nextSlide = _this.nextSlide.bind(_this);
+	    _this.lastSlide = _this.lastSlide.bind(_this);
+	    return _this;
+	  }
+
+	  _createClass(Carousel, [{
+	    key: "autoSlide",
+	    value: function autoSlide() {
+	      this.showSlides(this.slideIndex += 1);
+	    }
+	  }, {
+	    key: "nextSlide",
+	    value: function nextSlide() {
+	      if (this.slideManuel === 0) {
+	        this.slideManuel = 1;
+	        console.log(this.slideManuel);
+	        clearTimeout(auto);
+	      }
+	      this.showSlides(this.slideIndex += 1);
+	    }
+	  }, {
+	    key: "lastSlide",
+	    value: function lastSlide() {
+	      if (this.slideManuel === 0) {
+	        this.slideManuel = 1;
+	      }
+	      this.showSlides(this.slideIndex -= 1);
+	    }
+	  }, {
+	    key: "showSlides",
+	    value: function showSlides(n) {
+	      var i = void 0;
+	      var x = document.getElementsByClassName("slide");
+	      if (n > x.length) {
+	        this.slideIndex = 1;
+	      }
+	      if (n < 1) {
+	        this.slideIndex = x.length;
+	      }
+	      for (i = 0; i < x.length; i++) {
+	        //x[i].style.display = "none";
+	        $(x[i]).css("display", "none");
+	      }
+	      //x[this.slideIndex - 1].style.display = "block";
+	      $(x[this.slideIndex - 1]).css("display", "block");
+	      if (this.slideManuel === 0) {
+	        //may remove entirely
+	        auto = setTimeout(this.autoSlide, 10000);
+	      }
+	    }
+	  }, {
+	    key: "componentDidMount",
+	    value: function componentDidMount() {
+	      this.showSlides(this.slideIndex);
+	      console.log("carousel mounted");
+	    }
+	  }, {
+	    key: "componentDidUpdate",
+	    value: function componentDidUpdate() {
+	      console.log("carousel updated");
+	    }
+	  }, {
+	    key: "componentWillUnmount",
+	    value: function componentWillUnmount() {
+	      clearTimeout(auto);
+	      console.log("carousel unmounted");
+	    }
+	  }, {
+	    key: "render",
+	    value: function render() {
+	      return React.createElement(
+	        "div",
+	        { className: "carousel" },
+	        React.createElement(
+	          "div",
+	          { className: "slide" },
+	          React.createElement("div", { id: "slide-top" }),
+	          React.createElement(
+	            "div",
+	            { id: "slide-bot" },
+	            React.createElement(
+	              "div",
+	              null,
+	              React.createElement(
+	                "div",
+	                null,
+	                React.createElement("div", { id: "container" })
+	              )
+	            ),
+	            React.createElement(
+	              "div",
+	              null,
+	              React.createElement(
+	                "div",
+	                null,
+	                React.createElement(
+	                  "h1",
+	                  null,
+	                  "My Story"
+	                ),
+	                React.createElement(
+	                  "p",
+	                  null,
+	                  "I've been coding since high school, where I learned how to build desktop applications with VB.NET and drive robot engines with Java. It took around 3 months to complete, and then I started looking around for a way I could turn coding into an actual career. Fast forward to 2017, I attended an 8 week coding Bootcamp at Tech Talent South and ignited an intense interest in programming for the web. I've enjoyed the journey so far, and when I discovered React I just fell in love with JavaScript all over again."
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        React.createElement(
+	          "div",
+	          { className: "slide" },
+	          React.createElement(
+	            "div",
+	            { id: "slide-top" },
+	            React.createElement(
+	              "div",
+	              null,
+	              React.createElement(
+	                "h2",
+	                null,
+	                "Want to know what I believe in? ",
+	                React.createElement(
+	                  "a",
+	                  { href: "http://www.viktharienvolander.com/manifesto.html" },
+	                  "Read My Manifesto"
+	                )
+	              )
+	            )
+	          ),
+	          React.createElement(
+	            "div",
+	            { id: "slide-bot" },
+	            React.createElement(
+	              "div",
+	              null,
+	              React.createElement("i", { className: "fa fa-quote-left fa-3x", "aria-hidden": "true" }),
+	              React.createElement(
+	                "h3",
+	                null,
+	                "Using Call-Em-All has been a dream. The experience is super simple; and their support team is incredible!"
+	              ),
+	              React.createElement(
+	                "p",
+	                null,
+	                "Jason Doe, San Antonio Spurs"
+	              )
+	            )
+	          )
+	        ),
+	        React.createElement(
+	          "div",
+	          { id: "slide-controls" },
+	          React.createElement(
+	            "button",
+	            { id: "neg", className: "slide-btn", onClick: this.lastSlide },
+	            React.createElement("i", { className: "fa fa-arrow-left fa-3x", "aria-hidden": "true" })
+	          ),
+	          React.createElement("br", null),
+	          React.createElement(
+	            "button",
+	            { id: "pos", className: "slide-btn", onClick: this.nextSlide },
+	            React.createElement("i", { className: "fa fa-arrow-right fa-3x", "aria-hidden": "true" })
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Carousel;
+	}(React.Component);
+
+		exports.default = Carousel;
+
+/***/ }),
+/* 339 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -11339,11 +11613,9 @@
 	  }, {
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      var _this2 = this;
-
 	      var clicked = 0;
 	      $('#navigation').click(function () {
-	        _this2.props.onClick('Index');
+	        //this.props.onClick('Index');
 	      });
 
 	      $('#collapse').click(function () {
@@ -11375,6 +11647,24 @@
 	          console.log(clicked);
 	        }
 	      });
+
+	      //special button hover functions
+
+	      $('#MeetMe').bind('mouseenter', function () {
+	        $(this).html('Meet Me');
+	        $(this).css('color', '#ff3300');
+	      });
+
+	      $('#ContactMe').bind('mouseenter', function () {
+	        $(this).html('Contact Me');
+	      });
+
+	      $('#Thanks').bind('mouseenter', function () {
+	        $(this).html('Thanks!');
+	        $(this).css('color', '#ff3300');
+	      });
+
+	      //
 
 	      $(window).resize(function () {
 	        var winWidth = $(window).width();
@@ -11443,17 +11733,17 @@
 	          ),
 	          React.createElement(
 	            'button',
-	            { value: 'MeetUs', onClick: this.handleClick, className: 'nav-btn' },
+	            { id: 'MeetMe', value: 'MeetUs', onClick: this.handleClick, className: 'nav-btn' },
 	            'Mitter Oss'
 	          ),
 	          React.createElement(
 	            'button',
-	            { value: 'TryIt', onClick: this.handleClick, className: 'nav-btn special-btn' },
+	            { id: 'ContactMe', value: 'TryIt', onClick: this.handleClick, className: 'nav-btn special-btn' },
 	            'Tr\xE5 Det'
 	          ),
 	          React.createElement(
 	            'button',
-	            { value: 'SignIn', onClick: this.handleClick, className: 'nav-btn' },
+	            { id: 'Thanks', value: 'SignIn', onClick: this.handleClick, className: 'nav-btn' },
 	            'S\xE5n I'
 	          )
 	        )
@@ -11467,7 +11757,7 @@
 		exports.default = Navigation;
 
 /***/ }),
-/* 338 */
+/* 340 */
 /***/ (function(module, exports) {
 
 	'use strict';
