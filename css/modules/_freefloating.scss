@@ -18,7 +18,10 @@ then page components*/
     font-size: 1.3em;
     color: gray;
     position: relative;
-    span {
+    &:hover {
+      cursor: pointer;
+    }
+    #logo-span {
       display: flex;
       justify-content: center;
       align-items: center;

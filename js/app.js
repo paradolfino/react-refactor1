@@ -4,6 +4,8 @@ import Features from './components/pages/features';
 import HowWeHelp from './components/pages/howwehelp';
 import Pricing from './components/pages/pricing';
 import MeetUs from './components/pages/meetus';
+import Contact from './components/pages/contact';
+import Thanks from './components/pages/thanks';
 //elements
 import Navigation from './components/elements/all-navigation';
 import Footer from './components/elements/all-footer';
@@ -23,7 +25,9 @@ class App extends React.Component {
       Features: Features,
       HowWeHelp: HowWeHelp,
       Pricing: Pricing,
-      MeetUs: MeetUs
+      MeetUs: MeetUs,
+      Contact: Contact,
+      Thanks: Thanks
     };
     
     //bindings
@@ -54,8 +58,8 @@ class App extends React.Component {
     localStorage['Page'] = this.state.page;
     
     //check to see if collapsed menu is deployed
-    let displayState = $('#nav-btns').css('display');
-    displayState === 'flex' ? $('#jumbo').css('margin-left','200px') : $('#jumbo').css('margin-left','0');
+    let displayState = $('#nav-btns').hasClass('collapsed-items');
+    displayState === true ? $('#jumbo').css('margin-left','200px') : $('#jumbo').css('margin-left','0');
   }
   
   componentDidUnmount() {

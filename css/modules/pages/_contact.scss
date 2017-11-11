@@ -1,0 +1,60 @@
+#page-contact {
+  #contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 50%;
+    color: white;
+    background-color: #0099ff;
+    border-radius: 30px;
+    div {
+      padding: 20px;
+      text-align: center;
+      #theform * {
+        margin-bottom: 10px;
+        padding: 20px;
+      }
+      p {
+        a {
+          color: white;
+        }
+      }
+    }
+    @media screen and (max-width: 1060px) {
+      width: 60%;
+    }
+    @media screen and (max-width: 940px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 680px) {
+      margin: 20px auto;
+      width: 90%;
+    }
+    @media screen and (max-width: 485px) {
+      width: 100%;
+      div {
+        #theform {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#contactme {
+  padding: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+  background-color: #ff3300;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.5s;
+  &:hover {
+    cursor: pointer;
+    color: #ff3300;
+    background-color: white;
+    transition: all 0.5s;
+  }
+}

@@ -71,8 +71,8 @@ class Carousel extends React.Component {
           <div id="slide-top" />
           <div id="slide-bot">
             <div>
-              <div>
-                <div id="container" />
+              <div id='container'>
+                <div id="subcontainer" />
               </div>
             </div>
             <div>
@@ -96,16 +96,15 @@ class Carousel extends React.Component {
 
         <div className="slide">
           <div id="slide-top">
-            <div><h2>Want to know what I believe in? <a href="http://www.viktharienvolander.com/manifesto.html">Read My Manifesto</a></h2></div>
+            <div><h2>Want to see my resume? <a href="http://www.viktharienvolander.com/resume.pdf" target="_blank">Check It Out</a></h2></div>
           </div>
           <div id="slide-bot">
             <div>
               <i className="fa fa-quote-left fa-3x" aria-hidden="true" />
               <h3>
-                Using Call-Em-All has been a dream. The experience is super
-                simple; and their support team is incredible!
+                I have a very simple approach to work. Let's call it my "work (design) pattern". I first ask, "What am I doing?", "How can I do it?", and "How soon must it be done?". Then I begin to work and I ask, "What can I do to make it better?", "How can I simplify doing it?", and "How can it be done quicker?". When the work is finished, I only have two more questions: "Did I learn something?" and "Did I love making it?"
               </h3>
-              <p>Jason Doe, San Antonio Spurs</p>
+              
             </div>
           </div>
         </div>

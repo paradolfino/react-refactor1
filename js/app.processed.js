@@ -8899,11 +8899,19 @@
 
 	var _meetus2 = _interopRequireDefault(_meetus);
 
-	var _allNavigation = __webpack_require__(339);
+	var _contact = __webpack_require__(339);
+
+	var _contact2 = _interopRequireDefault(_contact);
+
+	var _thanks = __webpack_require__(341);
+
+	var _thanks2 = _interopRequireDefault(_thanks);
+
+	var _allNavigation = __webpack_require__(343);
 
 	var _allNavigation2 = _interopRequireDefault(_allNavigation);
 
-	var _allFooter = __webpack_require__(340);
+	var _allFooter = __webpack_require__(344);
 
 	var _allFooter2 = _interopRequireDefault(_allFooter);
 
@@ -8937,7 +8945,9 @@
 	      Features: _features2.default,
 	      HowWeHelp: _howwehelp2.default,
 	      Pricing: _pricing2.default,
-	      MeetUs: _meetus2.default
+	      MeetUs: _meetus2.default,
+	      Contact: _contact2.default,
+	      Thanks: _thanks2.default
 	    };
 
 	    //bindings
@@ -8971,8 +8981,8 @@
 	      localStorage['Page'] = this.state.page;
 
 	      //check to see if collapsed menu is deployed
-	      var displayState = $('#nav-btns').css('display');
-	      displayState === 'flex' ? $('#jumbo').css('margin-left', '200px') : $('#jumbo').css('margin-left', '0');
+	      var displayState = $('#nav-btns').hasClass('collapsed-items');
+	      displayState === true ? $('#jumbo').css('margin-left', '200px') : $('#jumbo').css('margin-left', '0');
 	    }
 	  }, {
 	    key: 'componentDidUnmount',
@@ -11484,8 +11494,8 @@
 	              null,
 	              React.createElement(
 	                "div",
-	                null,
-	                React.createElement("div", { id: "container" })
+	                { id: "container" },
+	                React.createElement("div", { id: "subcontainer" })
 	              )
 	            ),
 	            React.createElement(
@@ -11520,11 +11530,11 @@
 	              React.createElement(
 	                "h2",
 	                null,
-	                "Want to know what I believe in? ",
+	                "Want to see my resume? ",
 	                React.createElement(
 	                  "a",
-	                  { href: "http://www.viktharienvolander.com/manifesto.html" },
-	                  "Read My Manifesto"
+	                  { href: "http://www.viktharienvolander.com/resume.pdf", target: "_blank" },
+	                  "Check It Out"
 	                )
 	              )
 	            )
@@ -11539,12 +11549,7 @@
 	              React.createElement(
 	                "h3",
 	                null,
-	                "Using Call-Em-All has been a dream. The experience is super simple; and their support team is incredible!"
-	              ),
-	              React.createElement(
-	                "p",
-	                null,
-	                "Jason Doe, San Antonio Spurs"
+	                "I have a very simple approach to work. Let's call it my \"work (design) pattern\". I first ask, \"What am I doing?\", \"How can I do it?\", and \"How soon must it be done?\". Then I begin to work and I ask, \"What can I do to make it better?\", \"How can I simplify doing it?\", and \"How can it be done quicker?\". When the work is finished, I only have two more questions: \"Did I learn something?\" and \"Did I love making it?\""
 	              )
 	            )
 	          )
@@ -11575,6 +11580,310 @@
 
 /***/ }),
 /* 339 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _allJumbo = __webpack_require__(328);
+
+	var _allJumbo2 = _interopRequireDefault(_allJumbo);
+
+	var _contactContent = __webpack_require__(340);
+
+	var _contactContent2 = _interopRequireDefault(_contactContent);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Contact = function (_React$Component) {
+	  _inherits(Contact, _React$Component);
+
+	  function Contact(props) {
+	    _classCallCheck(this, Contact);
+
+	    var _this = _possibleConstructorReturn(this, (Contact.__proto__ || Object.getPrototypeOf(Contact)).call(this, props));
+
+	    _this.settings = {
+	      header: 'Contact Me',
+	      sub: "I'm available by phone Monday & Tuesday from 8 AM - 5 PM."
+
+	    };
+
+	    return _this;
+	  }
+
+	  _createClass(Contact, [{
+	    key: 'render',
+	    value: function render() {
+	      return React.createElement(
+	        'div',
+	        { id: 'page-contact', className: 'page' },
+	        React.createElement(_allJumbo2.default, { header: this.settings.header, sub: this.settings.sub }),
+	        React.createElement(_contactContent2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Contact;
+	}(React.Component);
+
+		exports.default = Contact;
+
+/***/ }),
+/* 340 */
+/***/ (function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var ContactContent = function (_React$Component) {
+	  _inherits(ContactContent, _React$Component);
+
+	  function ContactContent() {
+	    _classCallCheck(this, ContactContent);
+
+	    return _possibleConstructorReturn(this, (ContactContent.__proto__ || Object.getPrototypeOf(ContactContent)).apply(this, arguments));
+	  }
+
+	  _createClass(ContactContent, [{
+	    key: "render",
+	    value: function render() {
+	      return React.createElement(
+	        "div",
+	        { id: "contact-content" },
+	        React.createElement(
+	          "div",
+	          null,
+	          React.createElement(
+	            "form",
+	            { id: "theform" },
+	            React.createElement("input", { id: "formName", type: "text", placeholder: "Your Name" }),
+	            React.createElement("br", null),
+	            React.createElement("input", { id: "formEmail", type: "email", placeholder: "Your E-mail" }),
+	            React.createElement("br", null),
+	            React.createElement("textarea", {
+	              id: "formMsg",
+	              placeholder: "Your Message",
+	              cols: "50",
+	              rows: "5"
+	            }),
+	            React.createElement("br", null),
+	            React.createElement(
+	              "button",
+	              { id: "contactme", type: "submit" },
+	              "Contact Me Now!"
+	            )
+	          ),
+	          React.createElement(
+	            "p",
+	            null,
+	            "Not keen on a form? Reach out to me via e-mail directly or by phone:"
+	          ),
+	          React.createElement(
+	            "p",
+	            null,
+	            React.createElement(
+	              "a",
+	              { href: "mailto:viktharien@zoho.com" },
+	              "viktharien@zoho.com"
+	            )
+	          ),
+	          React.createElement(
+	            "p",
+	            null,
+	            React.createElement(
+	              "a",
+	              { href: "tel:1-682-410-8053" },
+	              "(682) 410-8053"
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return ContactContent;
+	}(React.Component);
+
+		exports.default = ContactContent;
+
+/***/ }),
+/* 341 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _allJumbo = __webpack_require__(328);
+
+	var _allJumbo2 = _interopRequireDefault(_allJumbo);
+
+	var _thanksContent = __webpack_require__(342);
+
+	var _thanksContent2 = _interopRequireDefault(_thanksContent);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Thanks = function (_React$Component) {
+	  _inherits(Thanks, _React$Component);
+
+	  function Thanks(props) {
+	    _classCallCheck(this, Thanks);
+
+	    var _this = _possibleConstructorReturn(this, (Thanks.__proto__ || Object.getPrototypeOf(Thanks)).call(this, props));
+
+	    _this.settings = {
+	      header: 'Thanks!',
+	      sub: "I really appreciate you stopping by. This was half fun and half serious. I'll be making improvements over time. Check back once in a while."
+
+	    };
+
+	    return _this;
+	  }
+
+	  _createClass(Thanks, [{
+	    key: 'render',
+	    value: function render() {
+	      return React.createElement(
+	        'div',
+	        { id: 'page-thanks', className: 'page' },
+	        React.createElement(_allJumbo2.default, { header: this.settings.header, sub: this.settings.sub }),
+	        React.createElement(_thanksContent2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Thanks;
+	}(React.Component);
+
+		exports.default = Thanks;
+
+/***/ }),
+/* 342 */
+/***/ (function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var ThanksContent = function (_React$Component) {
+	  _inherits(ThanksContent, _React$Component);
+
+	  function ThanksContent() {
+	    _classCallCheck(this, ThanksContent);
+
+	    return _possibleConstructorReturn(this, (ThanksContent.__proto__ || Object.getPrototypeOf(ThanksContent)).apply(this, arguments));
+	  }
+
+	  _createClass(ThanksContent, [{
+	    key: "render",
+	    value: function render() {
+	      return React.createElement(
+	        "div",
+	        { id: "thanks-content" },
+	        React.createElement(
+	          "div",
+	          null,
+	          React.createElement(
+	            "h2",
+	            null,
+	            "Interested in seeing the code for this project? ",
+	            React.createElement(
+	              "a",
+	              { href: "https://github.com/viktharien/react-refactor1" },
+	              "Here's the GitHub repo!"
+	            )
+	          ),
+	          React.createElement(
+	            "h3",
+	            null,
+	            "Also, I'm always trying to improve my development skills. Contact me if you've got a suggestion for a React or Angular 5 refactor."
+	          ),
+	          React.createElement(
+	            "h4",
+	            null,
+	            "P. S. I may implement React Redux and/or Router for this project in the future. Stay tuned."
+	          ),
+	          React.createElement(
+	            "p",
+	            null,
+	            "P. P. S. By the way, ",
+	            React.createElement(
+	              "strong",
+	              null,
+	              "I'm for hire"
+	            ),
+	            ". For a complete list of my skills, projects, and work experience, please refer to my ",
+	            React.createElement(
+	              "a",
+	              { href: "http://www.viktharienvolander.com/resume.pdf" },
+	              "resume."
+	            )
+	          ),
+	          React.createElement(
+	            "div",
+	            { id: "furthermore" },
+	            React.createElement(
+	              "p",
+	              null,
+	              "Still reading? I bet you'd be interested in knowing why I chose to do this or that in the development of this project. Read all about it here."
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return ThanksContent;
+	}(React.Component);
+
+		exports.default = ThanksContent;
+
+/***/ }),
+/* 343 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -11613,9 +11922,11 @@
 	  }, {
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      var _this2 = this;
+
 	      var clicked = 0;
-	      $('#navigation').click(function () {
-	        //this.props.onClick('Index');
+	      $('#logo-span').click(function () {
+	        _this2.props.onClick('Index');
 	      });
 
 	      $('#collapse').click(function () {
@@ -11695,7 +12006,7 @@
 	          React.createElement('i', { className: 'fa fa-volume-control-phone fa-2x' }),
 	          React.createElement(
 	            'span',
-	            null,
+	            { id: 'logo-span' },
 	            ' Kall-Dem-All|',
 	            React.createElement(
 	              'strong',
@@ -11724,7 +12035,7 @@
 	          React.createElement(
 	            'button',
 	            { value: 'HowWeHelp', onClick: this.handleClick, className: 'nav-btn' },
-	            'Hoh Vi Help'
+	            'Hoh Vi Helpper'
 	          ),
 	          React.createElement(
 	            'button',
@@ -11738,13 +12049,13 @@
 	          ),
 	          React.createElement(
 	            'button',
-	            { id: 'ContactMe', value: 'TryIt', onClick: this.handleClick, className: 'nav-btn special-btn' },
-	            'Tr\xE5 Det'
+	            { id: 'ContactMe', value: 'Contact', onClick: this.handleClick, className: 'nav-btn special-btn' },
+	            'Tr\xE5ja Det'
 	          ),
 	          React.createElement(
 	            'button',
-	            { id: 'Thanks', value: 'SignIn', onClick: this.handleClick, className: 'nav-btn' },
-	            'S\xE5n I'
+	            { id: 'Thanks', value: 'Thanks', onClick: this.handleClick, className: 'nav-btn' },
+	            'S\xE5nna I'
 	          )
 	        )
 	      );
@@ -11757,7 +12068,7 @@
 		exports.default = Navigation;
 
 /***/ }),
-/* 340 */
+/* 344 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -11950,8 +12261,8 @@
 	              ),
 	              React.createElement(
 	                'a',
-	                { href: 'https://www.codepen.io/viktharien' },
-	                React.createElement('i', { className: 'fa fa-codepen fa-4x', 'aria-hidden': 'true' })
+	                { href: 'https://www.github.com/viktharien' },
+	                React.createElement('i', { className: 'fa fa-github fa-4x', 'aria-hidden': 'true' })
 	              ),
 	              React.createElement('br', null),
 	              React.createElement(
@@ -11963,7 +12274,7 @@
 	                  null,
 	                  'Viktharien Volander'
 	                ),
-	                ' - thank you for the fun Call-Em-All!'
+	                ' - this project is dedicated to Call-Em-All!'
 	              ),
 	              React.createElement('br', null),
 	              React.createElement(

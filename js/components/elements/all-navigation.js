@@ -12,8 +12,8 @@ class Navigation extends React.Component {
   
   componentDidMount() {
     let clicked = 0;
-    $('#navigation').click(()=>{
-      //this.props.onClick('Index');
+    $('#logo-span').click(()=>{
+      this.props.onClick('Index');
     });
   
     $('#collapse').click(()=>{
@@ -87,7 +87,7 @@ class Navigation extends React.Component {
       <div id='navigation'>
         <div id='nav-logo'>
           <i className='fa fa-volume-control-phone fa-2x'></i>
-          <span> Kall-Dem-All|<strong>NR</strong></span>
+          <span id='logo-span'> Kall-Dem-All|<strong>NR</strong></span>
           
         </div>
         <div id='collapse'>
@@ -95,11 +95,11 @@ class Navigation extends React.Component {
         </div>
         <div id='nav-btns'>
           <button value='Features' onClick={this.handleClick} className='nav-btn'>Fætøre</button>
-          <button value='HowWeHelp' onClick={this.handleClick} className='nav-btn'>Hoh Vi Help</button>
+          <button value='HowWeHelp' onClick={this.handleClick} className='nav-btn'>Hoh Vi Helpper</button>
           <button value='Pricing' onClick={this.handleClick} className='nav-btn'>Prëser</button>
           <button id='MeetMe' value='MeetUs' onClick={this.handleClick} className='nav-btn'>Mitter Oss</button>
-          <button id='ContactMe' value='TryIt'  onClick={this.handleClick} className='nav-btn special-btn'>Trå Det</button>
-          <button id='Thanks' value='SignIn' onClick={this.handleClick} className='nav-btn'>Sån I</button>
+          <button id='ContactMe' value='Contact'  onClick={this.handleClick} className='nav-btn special-btn'>Tråja Det</button>
+          <button id='Thanks' value='Thanks' onClick={this.handleClick} className='nav-btn'>Sånna I</button>
         </div>
         
       </div>

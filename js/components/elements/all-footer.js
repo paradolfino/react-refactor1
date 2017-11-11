@@ -45,8 +45,8 @@ class Footer extends React.Component {
           <div id='f-social'>
             <div>
               <a href='https://www.linkedin.com/in/aaron-viktharien-volander-cil-b1120514a'><i className="fa fa-linkedin fa-4x" aria-hidden="true"></i></a>
-              <a href='https://www.codepen.io/viktharien'><i className="fa fa-codepen fa-4x" aria-hidden="true"></i></a><br/>
-              <span>React Refactor by <strong>Viktharien Volander</strong> - thank you for the fun Call-Em-All!</span><br/>
+              <a href='https://www.github.com/viktharien'><i className="fa fa-github fa-4x" aria-hidden="true"></i></a><br/>
+              <span>React Refactor by <strong>Viktharien Volander</strong> - this project is dedicated to Call-Em-All!</span><br/>
               <span>Interested in hearing an explanation of my approach and design choices? <strong>Read here</strong></span>
             </div>
           </div>
