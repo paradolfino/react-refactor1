@@ -42,12 +42,13 @@ $table-cell: #f2f2f2;
             //----
             display: inline-flex;
             justify-content: flex-end;
+            margin-left: 25px;
             span {
               margin-top: 45px;
             }
             h2 {
               margin-top: -30px;
-              font-size: 9em;
+              font-size: 7em;
             }
           }
           .lc-price-right {
@@ -83,7 +84,7 @@ $table-cell: #f2f2f2;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1.2em;
+            font-size: 1em;
           }
         }
         .lc-table-body {

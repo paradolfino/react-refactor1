@@ -6,8 +6,8 @@ class MeetUs extends React.Component {
   constructor(props) {
     super(props);
     this.settings = {
-      header: "Meet Me",
-      sub: "There are a lot of software engineers out there. I'm different because I love programming a little TOO much. Like a lotta too much. P.S. I thought it would be clever to have this page reflect me, and it being in English - because I think it's cool when people can understand what you're saying!",
+      header: "Something English - finally!",
+      sub: "There are a lot of software engineers out there. I'm different because I love programming a little TOO much. Like a lotta little too much. P.S. I thought it would be clever to have this page reflect me, and it being in English - because I think it's cool when people can understand what you're saying!",
       
     };
   }

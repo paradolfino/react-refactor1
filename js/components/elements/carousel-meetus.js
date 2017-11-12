@@ -77,7 +77,7 @@ class Carousel extends React.Component {
             </div>
             <div>
               <div>
-                <h1>My Story</h1>
+                <h1>Meet Me - My Story</h1>
                 <p>
                   I've been coding since high school, where I learned how to
                   build desktop applications with VB.NET and drive robot engines

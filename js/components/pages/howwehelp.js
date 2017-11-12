@@ -6,8 +6,8 @@ class HowWeHelp extends React.Component {
   constructor(props) {
     super(props);
     this.settings = {
-      header:'Våsa Broadkaster og Massa Tekste Servësa',
-      sub:'Send ëmportant alerte, notëfëkadje, og remëndrare i yøst mënøte med ör altomatda messadjer servësa.',
+      header:'Delëver Din Messadj Med Vere Tekst & Fon Blaster Servësa',
+      sub:'Vi makker lëf en lille mor æså får gröppe, fårtage, og kompanåje everåhvar. Kipper din gröp upperdatda får ore får on messadj.',
       
     };
    

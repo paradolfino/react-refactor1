@@ -9271,12 +9271,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Add Kontakte'
+	                  'Adda Kontakte'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Add kontakte man\xF8all\xE5 eller \xF8pload en l\xEBst \xE5v n\xF8mbre. \xC6s\xEBl\xE5 organ\xEBsh dem i t\xEBl gr\xF6ppe.'
+	                  'Adda kontakte man\xF8all\xE5 eller upperload en l\xEBst \xE5v n\xF8mbre. \xC6s\xEBl\xE5 organ\xEBsh dem i t\xEBl gr\xF6ppe.'
 	                )
 	              )
 	            ),
@@ -9299,12 +9299,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Kr\xE6t Din Messadj'
+	                  'Kr\xE6tta Din Messadj'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'T\xE5p ut din tekst messadj eller \xF8ser \xF6r s\xE5stem an kr\xE6t en rekordda v\xE5sa messadj.'
+	                  'T\xE5ppa ut din tekst messadj eller \xF8ser vere s\xE5stem an kr\xE6t en rekordda v\xE5sa messadj.'
 	                )
 	              )
 	            ),
@@ -9327,12 +9327,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Send and Analyze'
+	                  'Send og Anal\xE5ssa'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Tell us when you want your message to be delivered, now or later, then track the results and analyze.'
+	                  'Tella oss nar du v\xEBl har din messadj f\xE5r del\xEBver, nar\xEB eller later, narda trakka res\xF8ltene og anal\xE5ssa.'
 	                )
 	              )
 	            )
@@ -9340,7 +9340,7 @@
 	          React.createElement(
 	            'button',
 	            { className: 'special-btn' },
-	            'Learn More'
+	            'L\xE6rna Mor'
 	          )
 	        ),
 	        React.createElement(
@@ -9377,12 +9377,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Religious Groups'
+	                  'Rel\xEBgi\xF6sa Gr\xF6ppe'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Send out prayer requests, event reminders, volunteer requests, schedule changes, and special events.'
+	                  'Send ut pr\xE5jer & vol\xF8ntirer rekveste, event rem\xEBndre skied\xF8l kiandje.'
 	                )
 	              )
 	            ),
@@ -9400,12 +9400,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Schools'
+	                  'Skiule'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Send parents emergency alerts, reminders about report cards, field trips & school events.'
+	                  'Send parente emergens\xE5 alerte, rem\xEBndre om report karde, field tr\xEBpe & skiul evente.'
 	                )
 	              )
 	            ),
@@ -9423,12 +9423,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Staffing'
+	                  'Staffer'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Notify people of job openings, announce shift changes, and request missing timesheets.'
+	                  'Not\xEBf\xE5 pop\xF8lase \xE5v jobba opennere, ann\xF6nsa ch\xEBft kiandje, og rekvesta m\xEBsser t\xEBmchite.'
 	                )
 	              )
 	            ),
@@ -9446,12 +9446,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Universities'
+	                  'H\xE5jer Ed\xF8kadjer'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Deadline Reminders, campus events, send out weather alerts and emergency notifications.'
+	                  'D\xE6dl\xEBn Rem\xEBndre, kamp\xF8s evente, send ut v\xE6dra alerte og emergens\xE5 not\xEBfikadjer.'
 	                )
 	              )
 	            )
@@ -9459,7 +9459,7 @@
 	          React.createElement(
 	            'button',
 	            { className: 'special-btn' },
-	            'Learn More'
+	            'L\xE6rna Mor'
 	          )
 	        ),
 	        React.createElement(
@@ -9471,12 +9471,12 @@
 	            React.createElement(
 	              'h1',
 	              null,
-	              'A Few Happy Customers'
+	              'En F\xF8 Glad K\xF8stomere'
 	            ),
 	            React.createElement(
 	              'h3',
 	              null,
-	              'You\'re in good company. More than 40,000 customers are part of the Call-Em-All family. Here are some familiar faces!'
+	              'Du ar i gud kompan\xE5. Mor att 40,000 k\xF8somere ar part \xE5v den Kall-Dem-All fam\xEBl\xE5. Hvar\xEB ar samlig fam\xEBlier fase!'
 	            )
 	          ),
 	          React.createElement(
@@ -9501,12 +9501,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Using Call-Em-All has been a dream. The experience is super simple; and their support team is incredible!'
+	                  '\xD8ser Kall-Dem-All harda arun en dr\xE6m. Eksperiensen ar s\xF8pra s\xEBmpel; og deres stotter t\xE6m ar ikred\xEBbel!'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Jason Doe, San Antonio Spurs'
+	                  'Yasen Doe, S\xE5jinter Andon\xE5 Sp\xF8re'
 	                )
 	              )
 	            ),
@@ -9520,12 +9520,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'It\'s so easy, all I have to do is click who I need to contact, record my message, and less than 5 minutes later all my calls are made and I know who was contacted and how.'
+	                  'Det ar sa \xE6s\xE5, all jeg har an gor ar kl\xEBkker hvem jeg behover an kontakter, rekorder min messadj, og i lessa att 5 m\xEBn\xF8te later all min kalle ar makda og jeg vet hvem arun kontaktda og hoh.'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Sonya Bowman, Director Alabama Homeschool Academy'
+	                  'Sonja Bohman, D\xEBrekter \xE5v Homskiul Akadem\xE5'
 	                )
 	              )
 	            ),
@@ -9539,12 +9539,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'As a local canine search and rescue unit, our team needs fast reliable communication. Call-Em-All was the best find we\u2019ve ever made.'
+	                  'Som en lokel hund s\xE6rkier og resk\xF8 \xF8n\xEBt, vere t\xE6m behover fast reliabel komm\xF8n\xEBkadjer. Kall-Dem-All arda den best f\xEBnd vi harun ever makda.'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Walter Larkin, Schwenksville, PA'
+	                  'Valter Larki, Skivenkev\xEBlladj, PA'
 	                )
 	              )
 	            )
@@ -9558,7 +9558,7 @@
 	              React.createElement(
 	                'h1',
 	                null,
-	                'Ready to get started?'
+	                'R\xE6d\xE5 an getter startda?'
 	              ),
 	              React.createElement(
 	                'div',
@@ -9635,7 +9635,7 @@
 	    var _this = _possibleConstructorReturn(this, (Features.__proto__ || Object.getPrototypeOf(Features)).call(this, props));
 
 	    _this.settings = {
-	      header: "Vi Mak Altomatda Kalle og Massa Tekste Æså",
+	      header: "Vi Makker Altomatda Kalle og Massa Tekste Æså",
 	      sub: "Saver tëm bå elëmënatter hædakien åf harer an rækier kontakte idëvëdøallå.Kall-Dem-All™ eller Tekst-Dem-All™"
 
 	    };
@@ -9781,7 +9781,7 @@
 	              React.createElement(
 	                'h3',
 	                null,
-	                'Det ar l\xEBthel danene det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
+	                'Det ar en lille noe det makker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
 	              )
 	            ),
 	            React.createElement(
@@ -9806,7 +9806,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Rek\xE5ver \xF8saf\xF8l, r\xE6l-t\xEBm reporte f\xE5r ever\xE5 messadj du sender ut.'
+	                    'Rek\xE5jever \xF8saf\xF8l, r\xE6l-t\xEBm reporte f\xE5r ever\xE5 messadj du sender ut.'
 	                  )
 	                )
 	              ),
@@ -9875,7 +9875,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Vi affer serv\xEBsa t\xEBl \xD8SA\'n (m/Alaska & Haw\xE5\xEB), Kanada, og Puerto R\xEBko.'
+	                    'Vi afer serv\xEBsa t\xEBl \xD8SA\'n (m/Alaska & Haw\xE5\xEB), Kanada, og Puerto R\xEBko.'
 	                  )
 	                )
 	              )
@@ -9899,7 +9899,7 @@
 	              React.createElement(
 	                'h3',
 	                null,
-	                'Det ar l\xEBthel danene det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
+	                'Det ar en lille det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
 	              )
 	            ),
 	            React.createElement(
@@ -9924,7 +9924,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Du kan \xF8ser din ohn kallra \xCBD sa rek\xE5vre kan dialer dig bakk \xEBmmediatl\xE5.'
+	                    'Du kan \xF8ser din ohn kallra \xCBD sa rek\xE5jevre kan dialer dig bakk \xEBmmediatl\xE5.'
 	                  )
 	                )
 	              ),
@@ -9947,7 +9947,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Om vi detekter att en rek\xE5vra anser ikke kallen, vi kan l\xE6ver din messadj som en v\xE5sam\xE5l.'
+	                    'Om vi detekter att en rek\xE5jevra svarer ikke kallen, vi kan l\xE6ver din messadj som en v\xE5sam\xE5l.'
 	                  )
 	                )
 	              ),
@@ -9993,7 +9993,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Rekorder, prev\xF8her og sender din messadj t\xEBl din ent\xEBr gr\xF6p.'
+	                    'Rekorder, prev\xF8her og sender din messadj t\xEBl din hvol gr\xF6p.'
 	                  )
 	                )
 	              )
@@ -10017,7 +10017,7 @@
 	              React.createElement(
 	                'h3',
 	                null,
-	                'Det ar l\xEBthel danene det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
+	                'Det ar en lille det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
 	              )
 	            ),
 	            React.createElement(
@@ -10042,7 +10042,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Adder kontakte man\xF8all\xE5, \xF8pload en f\xEBl, eller har \xF8sre tekst J\xC5N t\xEBl din n\xF8mbra.'
+	                    'Adda kontakte man\xF8all\xE5, upperload en f\xE5l, eller har \xF8sre tekst J\xC5N t\xEBl din n\xF8mbra.'
 	                  )
 	                )
 	              ),
@@ -10065,7 +10065,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Du kan s\xF8rv\xE5jerer din kontakte med en frag pa din messadj. Vi v\xEBl reporter bakk anserene.'
+	                    'Du kan s\xF8rv\xE5jerer din kontakte med en sporgsmal pa din messadj. Vi v\xEBl reporter bakk svarene.'
 	                  )
 	                )
 	              ),
@@ -10088,7 +10088,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Skied\xF8ler din messadje arer del\xEBverda nar ever du v\xEBl ha, r\xE5t det sekond eller later pa.'
+	                    'Skied\xF8ler din messadje arer del\xEBverda nar ever du v\xEBl har, r\xE5t det sekond eller later pa.'
 	                  )
 	                )
 	              ),
@@ -10111,7 +10111,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    '\xD6r l\xEBppe ar s\xE6lerda. \xD8nt\xEBl legall\xE5 kompellda, vi v\xEBl never charer din iformadj.'
+	                    'Vere l\xEBppe ar s\xE6lda. \xD8nt\xEBl legall\xE5 kompellda, vi v\xEBl never charer din iformadj.'
 	                  )
 	                )
 	              )
@@ -10135,7 +10135,7 @@
 	              React.createElement(
 	                'h3',
 	                null,
-	                'Det ar l\xEBthel danene det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
+	                'Det ar en lille det maker en d\xEBffer. Kall-Dem-All har f\xE6t\xF8re an helpper dig komm\xF8n\xEBkater \xEBmportant iformadj t\xEBl dine hvol gr\xF6p.'
 	              )
 	            ),
 	            React.createElement(
@@ -10183,7 +10183,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Letter din kontakte konnekter med dig d\xEBrektl\xE5 b\xE5 presser en n\xF8mbra pa deras k\xE5jepad.'
+	                    'Letter din kontakte konnekter med dig d\xEBrektl\xE5 ved presser en n\xF8mbra pa deres k\xE5jepad.'
 	                  )
 	                )
 	              ),
@@ -10206,7 +10206,7 @@
 	                  React.createElement(
 	                    'p',
 	                    null,
-	                    'Vieher, manadjer og repl\xE5r hvem kontakte responder t\xEBl din tekst broadkaste.'
+	                    'V\xF8her, manadjer og repl\xE5r hvem kontakte responder t\xEBl din tekst broadkaste.'
 	                  )
 	                )
 	              ),
@@ -10275,12 +10275,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Add Kontakte'
+	                  'Adda Kontakte'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Add kontakte man\xF8all\xE5 eller \xF8pload en l\xEBst \xE5v n\xF8mbre. \xC6s\xEBl\xE5 organ\xEBsh dem i t\xEBl gr\xF6ppe.'
+	                  'Adda kontakte man\xF8all\xE5 eller upperload en l\xEBst \xE5v n\xF8mbre. \xC6s\xEBl\xE5 organ\xEBsh dem i t\xEBl gr\xF6ppe.'
 	                )
 	              )
 	            ),
@@ -10303,12 +10303,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Kr\xE6t Din Messadj'
+	                  'Kr\xE6tta Din Messadj'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'T\xE5p ut din tekst messadj eller \xF8ser \xF6r s\xE5stem an kr\xE6t en rekordda v\xE5sa messadj.'
+	                  'T\xE5ppa ut din tekst messadj eller \xF8ser vere s\xE5stem an kr\xE6t en rekordda v\xE5sa messadj.'
 	                )
 	              )
 	            ),
@@ -10331,12 +10331,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Send and Analyze'
+	                  'Send og Anal\xE5ssa'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Tell us when you want your message to be delivered, now or later, then track the results and analyze.'
+	                  'Tella oss nar du v\xEBl har din messadj f\xE5r del\xEBver, nar\xEB eller later, narda trakka res\xF8ltene og anal\xE5ssa.'
 	                )
 	              )
 	            )
@@ -10344,7 +10344,7 @@
 	          React.createElement(
 	            'button',
 	            { className: 'special-btn' },
-	            'Learn More'
+	            'L\xE6rna Mor'
 	          )
 	        ),
 	        React.createElement(
@@ -10363,12 +10363,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Using Call-Em-All has been a dream. The experience is super simple; and their support team is incredible!'
+	                  '\xD8ser Kall-Dem-All harda arun en dr\xE6m. Eksperiensen ar s\xF8pra s\xEBmpel; og deres stotter t\xE6m ar ikred\xEBbel!'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Jason Doe, San Antonio Spurs'
+	                  'Yasen Doe, S\xE5jinter Andon\xE5 Sp\xF8re'
 	                )
 	              )
 	            ),
@@ -10382,12 +10382,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'It\'s so easy, all I have to do is click who I need to contact, record my message, and less than 5 minutes later all my calls are made and I know who was contacted and how.'
+	                  'Det ar sa \xE6s\xE5, all jeg har an gor ar kl\xEBkker hvem jeg behover an kontakter, rekorder min messadj, og i lessa att 5 m\xEBn\xF8te later all min kalle ar makda og jeg vet hvem arun kontaktda og hoh.'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Sonya Bowman, Director Alabama Homeschool Academy'
+	                  'Sonja Bohman, D\xEBrekter \xE5v Homskiul Akadem\xE5'
 	                )
 	              )
 	            ),
@@ -10401,12 +10401,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'As a local canine search and rescue unit, our team needs fast reliable communication. Call-Em-All was the best find we\u2019ve ever made.'
+	                  'Som en lokel hund s\xE6rkier og resk\xF8 \xF8n\xEBt, vere t\xE6m behover fast reliabel komm\xF8n\xEBkadjer. Kall-Dem-All arda den best f\xEBnd vi harun ever makda.'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Walter Larkin, Schwenksville, PA'
+	                  'Valter Larki, Skivenkev\xEBlladj, PA'
 	                )
 	              )
 	            )
@@ -10420,7 +10420,7 @@
 	              React.createElement(
 	                'h1',
 	                null,
-	                'Ready to get started?'
+	                'R\xE6d\xE5 an getter startda?'
 	              ),
 	              React.createElement(
 	                'div',
@@ -10497,8 +10497,8 @@
 	    var _this = _possibleConstructorReturn(this, (HowWeHelp.__proto__ || Object.getPrototypeOf(HowWeHelp)).call(this, props));
 
 	    _this.settings = {
-	      header: 'Våsa Broadkaster og Massa Tekste Servësa',
-	      sub: 'Send ëmportant alerte, notëfëkadje, og remëndrare i yøst mënøte med ör altomatda messadjer servësa.'
+	      header: 'Delëver Din Messadj Med Vere Tekst & Fon Blaster Servësa',
+	      sub: 'Vi makker lëf en lille mor æså får gröppe, fårtage, og kompanåje everåhvar. Kipper din gröp upperdatda får ore får on messadj.'
 
 	    };
 
@@ -10640,7 +10640,7 @@
 	            React.createElement(
 	              'h3',
 	              null,
-	              'Om du har 50 eller d\xF6sande \xE5v pop\xF8lase pa din l\xEBst, \xF6r fon blaster serv\xEBsa alloher dig an r\xE6kier ever\xE5 kontakt i sekonde.'
+	              'Om du har 50 eller d\xF6sande \xE5v pop\xF8lase pa din l\xEBst, vere fon blaster serv\xEBsa alloher dig an r\xE6kier ever\xE5 kontakt i sekonde.'
 	            )
 	          ),
 	          React.createElement(
@@ -10660,12 +10660,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Health Care'
+	                  'H\xE6ler K\xE6rer'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Flu Shot and appointment reminders, staff nurses, and send patients health care announcements.'
+	                  'Fl\xF8 Chot og app\xE5jontment rem\xEBndre, staff k\xE6rere, og sender patiente h\xE6ler k\xE6rer ann\xF6nsamente.'
 	                )
 	              )
 	            ),
@@ -10683,12 +10683,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Schools'
+	                  'Skiule'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Send parents emergency alerts, reminders about report cards, field trips & school events.'
+	                  'Send parente emergens\xE5 alerte, rem\xEBndre om report karde, field tr\xEBpe & skiul evente.'
 	                )
 	              )
 	            ),
@@ -10706,12 +10706,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Higher Education'
+	                  'H\xE5jer Ed\xF8kadjer'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Deadline Reminders, campus events, send out weather alerts and emergency notifications.'
+	                  'D\xE6dl\xEBn Rem\xEBndre, kamp\xF8s evente, send ut v\xE6dra alerte og emergens\xE5 not\xEBfikadjer.'
 	                )
 	              )
 	            ),
@@ -10729,12 +10729,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Staffing'
+	                  'Staffer'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Notify people of job openings, announce shift changes, and request missing timesheets.'
+	                  'Not\xEBf\xE5 pop\xF8lase \xE5v jobba opennere, ann\xF6nsa ch\xEBft kiandje, og rekvesta m\xEBsser t\xEBmchite.'
 	                )
 	              )
 	            ),
@@ -10752,12 +10752,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Property Managers'
+	                  'Propert\xE5 Manadjere'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Send rent reminders, maintenance notifications, & coordinate staff.'
+	                  'Send rent rem\xEBndre, m\xE5jintenansa not\xEBfikadjer, & kurd\xEBnater staff.'
 	                )
 	              )
 	            ),
@@ -10775,12 +10775,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Waste & Utility'
+	                  'V\xE6st & \xD8t\xEBlit\xE5'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Send shut down notices, payment reminders, and emergency notifications.'
+	                  'Send ch\xF8t dohnner not\xEBse, betaler rem\xEBndre, og emergens\xE5 not\xEBfikadjer.'
 	                )
 	              )
 	            )
@@ -10800,7 +10800,7 @@
 	            React.createElement(
 	              'h3',
 	              null,
-	              'Om du har 50 eller d\xF6sande \xE5v pop\xF8lase pa din l\xEBst, \xF6r fon blaster serv\xEBsa alloher dig an r\xE6kier ever\xE5 kontakt i sekonde.'
+	              'Om du har 50 eller d\xF6sande \xE5v pop\xF8lase pa din l\xEBst, vere fon blaster serv\xEBsa alloher dig an r\xE6kier ever\xE5 kontakt i sekonde.'
 	            )
 	          ),
 	          React.createElement(
@@ -10820,12 +10820,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Non-profit'
+	                  'N\xE5n-prof\xEBtter'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Coordinate upcoming events, send donors a thank you, and send meething reminders.'
+	                  'Kurd\xEBnater upperkommer evente, send donatere en takk dig, og send mitter rem\xEBndre.'
 	                )
 	              )
 	            ),
@@ -10843,12 +10843,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Religious Groups'
+	                  'Rel\xEBgi\xF6sa Gr\xF6ppe'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Send out prayer & volunteer requests, event reminders, schedule changes.'
+	                  'Send ut pr\xE5jer & vol\xF8ntirer rekveste, event rem\xEBndre skied\xF8l kiandje.'
 	                )
 	              )
 	            ),
@@ -10866,12 +10866,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Business'
+	                  'F\xE5rtag'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Appointment reminders, notify staff about office closings, make important announcements.'
+	                  'App\xE5jintment rem\xEBndre, not\xEBf\xE5 staff om off\xEBsa kloser, makka \xEBmportant ann\xF6nsamente.'
 	                )
 	              )
 	            ),
@@ -10889,12 +10889,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'Sports Teams'
+	                  'Sprete T\xE6me'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Rain delays, last minute field changes, and game cancellations.'
+	                  'R\xE5jin del\xE5je, last m\xEBn\xF8t field kiandje, og gam kansellere..'
 	                )
 	              )
 	            )
@@ -10909,12 +10909,12 @@
 	            React.createElement(
 	              'h1',
 	              null,
-	              'Case Studies'
+	              'Kasa St\xF8diere'
 	            ),
 	            React.createElement(
 	              'h3',
 	              null,
-	              'You\'re in good company. Our customers share a few of their success stories below.'
+	              'Du ar i gud kompan\xE5. Vere k\xF8stomere charer en f\xF8 \xE5v dere s\xF8xessa t\xE6le beloh.'
 	            )
 	          ),
 	          React.createElement(
@@ -10938,12 +10938,12 @@
 	                React.createElement(
 	                  'h3',
 	                  null,
-	                  'No Spam Policy'
+	                  'N\xE5n Spam Pol\xEBs\xE5'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'We hate unwanted robo calls \u2014 all those annoying spam calls you get during dinner about debt refinancing, credit card offers, cruise deals, a once-in-a-lifetime business opportunity in Nigeria from people you\'ve never heard of. That\'s the exact opposite of what Call-Em-All stands for. We use our powers for good, not evil. In fact, we support the push to end unwanted calls and texts forever.'
+	                  'Vi h\xE6ter ikke v\xEBl harda robo kalle - all dette fel spam kalle du getter under efterd\xE5jm\xE6t om debit ref\xEBnanser, kred\xEBt kard afre, ch\xEBptr\xEBpper d\xE6le, en on-i-en-l\xEBft\xEBm f\xE5rtag opport\xF8n\xEBt\xE5 i Nigeria fr\xE5n pop\xF8lase du harda never h\xEBrun \xE5v. Det ar den eksakt oppos\xEBt \xE5v hvat Kall-Dem-All stander f\xE5r. Vi \xF8ser vere p\xF6ere f\xE5r gud, ikke fel. I fakt, vi stotter p\xF8chen an ender ikke v\xEBl harda kalle og tekste f\xE5rever.'
 	                )
 	              )
 	            ),
@@ -10956,17 +10956,17 @@
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'To stop receiving calls from our customers, click here to OPT OUT'
+	                  'An sluter rek\xE5jever kalle fr\xE5n vere k\xF8stomere, kl\xEBkker hvar\xEB an OPTIDJER UT'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'To stop receiving text message from our customers, text: STOP, QUIT, END, CANCEL, OR UNSUBSCRIBE TO 292929.'
+	                  'An sluter rek\xE5jever tekste messadje fr\xE5n vere k\xF8stomere, teksta: SLUTER, KV\xC5JUTER, ENDER, KANSELLER, ELLER IKKES\xD8BSKR\xCBBER T\xCBl 383838.'
 	                ),
 	                React.createElement(
 	                  'p',
 	                  null,
-	                  'Have any questions, feel free to CONTACT US anytime day or night'
+	                  'Har sporgsmal, filler fri an KONTAKTER OSS allt\xEBme d\xE5j eller n\xE5t.'
 	                )
 	              )
 	            )
@@ -10980,7 +10980,7 @@
 	              React.createElement(
 	                'h1',
 	                null,
-	                'Ready to get started?'
+	                'R\xE6d\xE5 an getter startda?'
 	              ),
 	              React.createElement(
 	                'div',
@@ -11057,8 +11057,8 @@
 	    var _this = _possibleConstructorReturn(this, (Pricing.__proto__ || Object.getPrototypeOf(Pricing)).call(this, props));
 
 	    _this.settings = {
-	      header: 'Simple Pricing Plans',
-	      sub: 'No long-term contracts, no hidden fees, and no fine print to make you cringe. What you see is what you get.'
+	      header: 'Sëmpel Prëser Planne',
+	      sub: 'Nån long-term kontrakte, nån hëdder koste, og nån fën prënt an makker dig sad. Hvat du ser ar hvat du getter.'
 	    };
 
 	    return _this;
@@ -11113,8 +11113,8 @@
 
 	    var _this = _possibleConstructorReturn(this, (PricingContent.__proto__ || Object.getPrototypeOf(PricingContent)).call(this, props));
 
-	    _this.leftCard = [['100 - 2,499', '9.0 ¢'], ['2,500 - 4,999', '8.5 ¢'], ['5,000 - 9,999', '7.5 ¢'], ['10,000 - 19,999', '7.0 ¢'], ['20,000 - 49,999', '6.5 ¢'], ['50,000 - 99,999', '6.0 ¢']]; //for those who stumble onto this code - you must define a new array for every different card to have unique data in each. - Viktharien
-	    _this.rightCard = [['1 - 25', '$ 7.50'], ['26 - 50', '$ 15.00'], ['51 - 100', '$ 35.00'], ['101 - 200', '$ 55.00'], ['201 - 300', '$ 75.00'], ['301 - 400', '$ 85.00']];
+	    _this.leftCard = [['100 - 2,499', '9.0 ore'], ['2,500 - 4,999', '8.5 ore'], ['5,000 - 9,999', '7.5 ore'], ['10,000 - 19,999', '7.0 ore'], ['20,000 - 49,999', '6.5 ore'], ['50,000 - 99,999', '6.0 ore']]; //for those who stumble onto this code - you must define a new array for every different card to have unique data in each. - Viktharien
+	    _this.rightCard = [['1 - 25', 'kr 7.50'], ['26 - 50', 'kr 15.00'], ['51 - 100', 'kr 35.00'], ['101 - 200', 'kr 55.00'], ['201 - 300', 'kr 75.00'], ['301 - 400', 'kr 85.00']];
 	    return _this;
 	  }
 
@@ -11125,30 +11125,30 @@
 	        'div',
 	        { id: 'pricing-content' },
 	        React.createElement(_pricingContentLargecard2.default, {
-	          topHead: 'CREDITS',
-	          topPricePrefix: 'LOW AS',
-	          topPriceLeft: '5',
-	          topPriceRightTop: '\xA2',
-	          topPriceRightBot: 'EACH',
-	          topPara: 'When you need to communicate with a different or constantly changing group. Pay as you go.\nOne 30 second call = 1 credit\nOne 160 character text = 1 credit',
-	          tableHeadLeft: 'Credits',
-	          tableHeadRight: 'Price Per Credit',
+	          topHead: 'KRED\xCBTE',
+	          topPricePrefix: 'LOH SOM',
+	          topPriceLeft: '42',
+	          topPriceRightTop: 'ore',
+	          topPriceRightBot: 'F\xC5R ON',
+	          topPara: 'Nar du behover an komm\xF8n\xEBkater med en d\xEBffer eller konstantl\xE5 kiandjer gr\xF6p. Betaler om du aker.\nOn 30 sekond kall = 1 kred\xEBt\nOn 160 kiarakter tekst = 1 kred\xEBt',
+	          tableHeadLeft: 'Kred\xEBte',
+	          tableHeadRight: 'Pr\xEBser f\xE5r Kred\xEBt',
 	          tableItems: this.leftCard,
-	          tableBottom: 'Need more than 100k? Call 877-226-3080',
-	          ctaButton: 'Buy Credits'
+	          tableBottom: 'Behover mor att 100k? Kalla ###-###-####',
+	          ctaButton: 'Chopper Kred\xEBte'
 	        }),
 	        React.createElement(_pricingContentLargecard2.default, {
-	          topHead: 'MONTHLY',
-	          topPricePrefix: 'FROM',
-	          topPriceLeft: '7',
-	          topPriceRightTop: '50  $',
-	          topPriceRightBot: 'PER MONTH',
-	          topPara: 'When you message the same group of people every month. Each phone number is a contact.\nCall and text as much as you need.',
-	          tableHeadLeft: 'Phone Numbers',
-	          tableHeadRight: 'Price Per Month',
+	          topHead: 'MONDL\xC5',
+	          topPricePrefix: 'FR\xC5N',
+	          topPriceLeft: '62',
+	          topPriceRightTop: '64  kr',
+	          topPriceRightBot: 'F\xC5R ON MOND',
+	          topPara: 'Nar du messadjer den soma gr\xF6p \xE5v pop\xF8lase ever\xE5 mond. F\xE5r on fon n\xF8mbra ar en kontakt. Kalla og teksta som mangi som du behover.',
+	          tableHeadLeft: 'Fon N\xF8mbre',
+	          tableHeadRight: 'Pr\xEBser F\xE5r On Mond',
 	          tableItems: this.rightCard,
-	          tableBottom: 'Have more than 400 people?',
-	          ctaButton: 'Buy Monthly'
+	          tableBottom: 'Har mor att 400 pop\xF8lase?',
+	          ctaButton: 'Chopper Mondl\xE5'
 	        })
 	      );
 	    }
@@ -11353,8 +11353,8 @@
 	    var _this = _possibleConstructorReturn(this, (MeetUs.__proto__ || Object.getPrototypeOf(MeetUs)).call(this, props));
 
 	    _this.settings = {
-	      header: "Meet Me",
-	      sub: "There are a lot of software engineers out there. I'm different because I love programming a little TOO much. Like a lotta too much. P.S. I thought it would be clever to have this page reflect me, and it being in English - because I think it's cool when people can understand what you're saying!"
+	      header: "Something English - finally!",
+	      sub: "There are a lot of software engineers out there. I'm different because I love programming a little TOO much. Like a lotta little too much. P.S. I thought it would be clever to have this page reflect me, and it being in English - because I think it's cool when people can understand what you're saying!"
 
 	    };
 	    return _this;
@@ -11507,7 +11507,7 @@
 	                React.createElement(
 	                  "h1",
 	                  null,
-	                  "My Story"
+	                  "Meet Me - My Story"
 	                ),
 	                React.createElement(
 	                  "p",
@@ -12130,7 +12130,7 @@
 	                React.createElement(
 	                  'li',
 	                  null,
-	                  'Hoh Vi Help'
+	                  'Hoh Vi Helpper'
 	                ),
 	                React.createElement(
 	                  'li',

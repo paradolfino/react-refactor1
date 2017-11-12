@@ -77,28 +77,28 @@ class Carousel extends React.Component {
               <div>
                 <h1>1</h1>
                 <span><i className="fa fa-address-card-o fa-3x" aria-hidden="true"></i></span>
-                <h3>Add Kontakte</h3>
-                <p>Add kontakte manøallå eller øpload en lëst åv nømbre. Æsëlå organësh dem i tël gröppe.</p>
+                <h3>Adda Kontakte</h3>
+                <p>Adda kontakte manøallå eller upperload en lëst åv nømbre. Æsëlå organësh dem i tël gröppe.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <h1>2</h1>
                 <span><i className="fa fa-commenting-o fa-3x" aria-hidden="true"></i></span>
-                <h3>Kræt Din Messadj</h3>
-                <p>Tåp ut din tekst messadj eller øser ör såstem an kræt en rekordda våsa messadj.</p>
+                <h3>Krætta Din Messadj</h3>
+                <p>Tåppa ut din tekst messadj eller øser vere såstem an kræt en rekordda våsa messadj.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <h1>3</h1>
                 <span><i className="fa fa-line-chart fa-3x" aria-hidden="true"></i></span>
-                <h3>Send and Analyze</h3>
-                <p>Tell us when you want your message to be delivered, now or later, then track the results and analyze.</p>
+                <h3>Send og Analåssa</h3>
+                <p>Tella oss nar du vël har din messadj får delëver, narë eller later, narda trakka resøltene og analåssa.</p>
               </div>
             </div>
           </div>
-          <button className='special-btn'>Learn More</button>
+          <button className='special-btn'>Lærna Mor</button>
         </div>
         
         <div className='slide'>
@@ -110,39 +110,39 @@ class Carousel extends React.Component {
             <div className='card'>
               <div>
                 <span><i className="fa fa-star fa-3x" aria-hidden="true"></i></span>
-                <h3>Religious Groups</h3>
-                <p>Send out prayer requests, event reminders, volunteer requests, schedule changes, and special events.</p>
+                <h3>Relëgiösa Gröppe</h3>
+                <p>Send ut pråjer & voløntirer rekveste, event remëndre skiedøl kiandje.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-bus fa-3x" aria-hidden="true"></i></span>
-                <h3>Schools</h3>
-                <p>Send parents emergency alerts, reminders about report cards, field trips & school events.</p>
+                <h3>Skiule</h3>
+                <p>Send parente emergenså alerte, remëndre om report karde, field trëpe & skiul evente.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-users fa-3x" aria-hidden="true"></i></span>
-                <h3>Staffing</h3>
-                <p>Notify people of job openings, announce shift changes, and request missing timesheets.</p>
+                <h3>Staffer</h3>
+                <p>Notëfå popølase åv jobba opennere, annönsa chëft kiandje, og rekvesta mësser tëmchite.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-university fa-3x" aria-hidden="true"></i></span>
-                <h3>Universities</h3>
-                <p>Deadline Reminders, campus events, send out weather alerts and emergency notifications.</p>
+                <h3>Håjer Edøkadjer</h3>
+                <p>Dædlën Remëndre, kampøs evente, send ut vædra alerte og emergenså notëfikadjer.</p>
               </div>
             </div>
           </div>
-          <button className='special-btn'>Learn More</button>
+          <button className='special-btn'>Lærna Mor</button>
         </div>
         
         <div className='slide'>
           <div id='slide-top'>
-            <h1>A Few Happy Customers</h1>
-            <h3>You're in good company. More than 40,000 customers are part of the Call-Em-All family. Here are some familiar faces!</h3>
+            <h1>En Fø Glad Køstomere</h1>
+            <h3>Du ar i gud kompanå. Mor att 40,000 køsomere ar part åv den Kall-Dem-All famëlå. Hvarë ar samlig famëlier fase!</h3>
           </div>
           <div id='slide-bot'>
             <img src='https://cdn.call-em-all.com/assets/sprite-company-logos-black.png'/>
@@ -155,29 +155,30 @@ class Carousel extends React.Component {
             <div className='card'>
               <div>
                 <i className="fa fa-quote-left fa-3x" aria-hidden="true"></i>
-                <h3>Using Call-Em-All has been a dream. The experience is super simple; and their support team is incredible!</h3>
-                <p>Jason Doe, San Antonio Spurs</p>
+                <h3>Øser Kall-Dem-All harda arun en dræm. Eksperiensen ar søpra sëmpel; og deres stotter tæm ar ikredëbel!</h3>
+                <p>Yasen Doe, Såjinter Andonå Spøre</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <i className="fa fa-quote-left fa-3x" aria-hidden="true"></i>
-                <h3>It's so easy, all I have to do is click who I need to contact, record my message, and less than 5 minutes later all my calls are made and I know who was contacted and how.</h3>
-                <p>Sonya Bowman, Director Alabama Homeschool Academy</p>
+                <h3>
+Det ar sa æså, all jeg har an gor ar klëkker hvem jeg behover an kontakter, rekorder min messadj, og i lessa att 5 mënøte later all min kalle ar makda og jeg vet hvem arun kontaktda og hoh.</h3>
+                <p>Sonja Bohman, Dërekter åv Homskiul Akademå</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <i className="fa fa-quote-left fa-3x" aria-hidden="true"></i>
-                <h3>As a local canine search and rescue unit, our team needs fast reliable communication. Call-Em-All was the best find we’ve ever made.</h3>
-                <p>Walter Larkin, Schwenksville, PA</p>
+                <h3>Som en lokel hund særkier og reskø ønët, vere tæm behover fast reliabel kommønëkadjer. Kall-Dem-All arda den best fënd vi harun ever makda.</h3>
+                <p>Valter Larki, Skivenkevëlladj, PA</p>
               </div>
             </div>
           </div>
           <div id='slide-bot'>
             <div>
               
-              <h1>Ready to get started?</h1>
+              <h1>Rædå an getter startda?</h1>
               <div>
                 <i className="fa fa-envelope" aria-hidden="true"></i><input type='email'/>
               </div>

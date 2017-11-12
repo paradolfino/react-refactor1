@@ -11,7 +11,7 @@ class Footer extends React.Component {
             <div className='card'>
               <ul><span>OM OSS</span>
                 <li>Fætøre</li>
-                <li>Hoh Vi Help</li>
+                <li>Hoh Vi Helpper</li>
                 <li>Prëser</li>
                 <li>Mitter Oss</li>
                 <li>Blog</li>

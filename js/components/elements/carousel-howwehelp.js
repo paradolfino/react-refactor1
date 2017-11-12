@@ -70,49 +70,49 @@ class Carousel extends React.Component {
         <div id='slide-howwehelp' className='slide'>
           <div id='slide-top'>
             <h1>Hvem Vi Helpper</h1>
-            <h3>Om du har 50 eller dösande åv popølase pa din lëst, ör fon blaster servësa alloher dig an rækier everå kontakt i sekonde.</h3>
+            <h3>Om du har 50 eller dösande åv popølase pa din lëst, vere fon blaster servësa alloher dig an rækier everå kontakt i sekonde.</h3>
           </div>
           <div id='slide-bot'>
             <div className='card'>
               <div>
                 <span><i className="fa fa-medkit fa-4x" aria-hidden="true"></i></span>
-                <h3>Health Care</h3>
-                <p>Flu Shot and appointment reminders, staff nurses, and send patients health care announcements.</p>
+                <h3>Hæler Kærer</h3>
+                <p>Flø Chot og appåjontment remëndre, staff kærere, og sender patiente hæler kærer annönsamente.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-bus fa-4x" aria-hidden="true"></i></span>
-                <h3>Schools</h3>
-                <p>Send parents emergency alerts, reminders about report cards, field trips & school events.</p>
+                <h3>Skiule</h3>
+                <p>Send parente emergenså alerte, remëndre om report karde, field trëpe & skiul evente.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-university fa-4x" aria-hidden="true"></i></span>
-                <h3>Higher Education</h3>
-                <p>Deadline Reminders, campus events, send out weather alerts and emergency notifications.</p>
+                <h3>Håjer Edøkadjer</h3>
+                <p>Dædlën Remëndre, kampøs evente, send ut vædra alerte og emergenså notëfikadjer.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-users fa-3x" aria-hidden="true"></i></span>
-                <h3>Staffing</h3>
-                <p>Notify people of job openings, announce shift changes, and request missing timesheets.</p>
+                <h3>Staffer</h3>
+                <p>Notëfå popølase åv jobba opennere, annönsa chëft kiandje, og rekvesta mësser tëmchite.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-building fa-4x" aria-hidden="true"></i></span>
-                <h3>Property Managers</h3>
-                <p>Send rent reminders, maintenance notifications, & coordinate staff.</p>
+                <h3>Propertå Manadjere</h3>
+                <p>Send rent remëndre, måjintenansa notëfikadjer, & kurdënater staff.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-bolt fa-4x" aria-hidden="true"></i></span>
-                <h3>Waste & Utility</h3>
-                <p>Send shut down notices, payment reminders, and emergency notifications.</p>
+                <h3>Væst & Øtëlitå</h3>
+                <p>Send chøt dohnner notëse, betaler remëndre, og emergenså notëfikadjer.</p>
               </div>
             </div>
           </div>
@@ -122,35 +122,35 @@ class Carousel extends React.Component {
           <div id='slide-howwehelp' className='slide'>
             <div id='slide-top'>
               <h1>Hvem Vi Helpper</h1>
-              <h3>Om du har 50 eller dösande åv popølase pa din lëst, ör fon blaster servësa alloher dig an rækier everå kontakt i sekonde.</h3>
+              <h3>Om du har 50 eller dösande åv popølase pa din lëst, vere fon blaster servësa alloher dig an rækier everå kontakt i sekonde.</h3>
             </div>
             <div id='slide-bot'>
               <div className='card'>
               <div>
                 <span><i className="fa fa-heart-o fa-4x" aria-hidden="true"></i></span>
-                <h3>Non-profit</h3>
-                <p>Coordinate upcoming events, send donors a thank you, and send meething reminders.</p>
+                <h3>Nån-profëtter</h3>
+                <p>Kurdënater upperkommer evente, send donatere en takk dig, og send mitter remëndre.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-star-o fa-4x" aria-hidden="true"></i></span>
-                <h3>Religious Groups</h3>
-                <p>Send out prayer & volunteer requests, event reminders, schedule changes.</p>
+                <h3>Relëgiösa Gröppe</h3>
+                <p>Send ut pråjer & voløntirer rekveste, event remëndre skiedøl kiandje.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-briefcase fa-4x" aria-hidden="true"></i></span>
-                <h3>Business</h3>
-                <p>Appointment reminders, notify staff about office closings, make important announcements.</p>
+                <h3>Fårtag</h3>
+                <p>Appåjintment remëndre, notëfå staff om offësa kloser, makka ëmportant annönsamente.</p>
               </div>
             </div>
             <div className='card'>
               <div>
                 <span><i className="fa fa-futbol-o fa-4x" aria-hidden="true"></i></span>
-                <h3>Sports Teams</h3>
-                <p>Rain delays, last minute field changes, and game cancellations.</p>
+                <h3>Sprete Tæme</h3>
+                <p>Råjin delåje, last mënøt field kiandje, og gam kansellere..</p>
               </div>
             </div>
             </div>
@@ -158,8 +158,8 @@ class Carousel extends React.Component {
         
         <div className='slide'>
           <div id='slide-top'>
-            <h1>Case Studies</h1>
-            <h3>You're in good company. Our customers share a few of their success stories below.</h3>
+            <h1>Kasa Stødiere</h1>
+            <h3>Du ar i gud kompanå. Vere køstomere charer en fø åv dere søxessa tæle beloh.</h3>
           </div>
           <div id='slide-bot'>
             <img src='https://cdn.call-em-all.com/assets/sprite-company-logos-black.png'/>
@@ -171,23 +171,23 @@ class Carousel extends React.Component {
           <div id='slide-top'>
             <div id='no-spam-left' className='card'>
               <div>
-                <h3>No Spam Policy</h3>
-                <p>We hate unwanted robo calls — all those annoying spam calls you get during dinner about debt refinancing, credit card offers, cruise deals, a once-in-a-lifetime business opportunity in Nigeria from people you've never heard of. That's the exact opposite of what Call-Em-All stands for. We use our powers for good, not evil. In fact, we support the push to end unwanted calls and texts forever.</p>
+                <h3>Nån Spam Polëså</h3>
+                <p>Vi hæter ikke vël harda robo kalle - all dette fel spam kalle du getter under efterdåjmæt om debit refënanser, kredët kard afre, chëptrëpper dæle, en on-i-en-lëftëm fårtag opportønëtå i Nigeria från popølase du harda never hërun åv. Det ar den eksakt opposët åv hvat Kall-Dem-All stander får. Vi øser vere pöere får gud, ikke fel. I fakt, vi stotter pøchen an ender ikke vël harda kalle og tekste fårever.</p>
               </div>
             </div>
             <div id='no-spam-right' className='card'>
               <div>
-                <p>To stop receiving calls from our customers, click here to OPT OUT</p>
-                <p>To stop receiving text message from our customers, text:
-                  STOP, QUIT, END, CANCEL, OR UNSUBSCRIBE TO 292929.</p>
-                <p>Have any questions, feel free to CONTACT US anytime day or night</p>
+                <p>An sluter rekåjever kalle från vere køstomere, klëkker hvarë an OPTIDJER UT</p>
+                <p>An sluter rekåjever tekste messadje från vere køstomere, teksta:
+                  SLUTER, KVÅJUTER, ENDER, KANSELLER, ELLER IKKESØBSKRËBER TËl 383838.</p>
+                <p>Har sporgsmal, filler fri an KONTAKTER OSS alltëme dåj eller nåt.</p>
               </div>
             </div>
           </div>
           <div id='slide-bot'>
             <div>
               
-              <h1>Ready to get started?</h1>
+              <h1>Rædå an getter startda?</h1>
               <div>
                 <i className="fa fa-envelope" aria-hidden="true"></i><input type='email'/>
               </div>
