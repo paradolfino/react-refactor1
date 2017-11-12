@@ -8923,6 +8923,7 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } //pages
 
+
 	//elements
 
 
@@ -11058,7 +11059,6 @@
 	    _this.settings = {
 	      header: 'Simple Pricing Plans',
 	      sub: 'No long-term contracts, no hidden fees, and no fine print to make you cringe. What you see is what you get.'
-
 	    };
 
 	    return _this;
@@ -11869,7 +11869,12 @@
 	            React.createElement(
 	              "p",
 	              null,
-	              "Still reading? I bet you'd be interested in knowing why I chose to do this or that in the development of this project. Read all about it here."
+	              "Still reading? I bet you'd be interested in knowing why I chose to do this or that in the development of this project. ",
+	              React.createElement(
+	                "a",
+	                { href: "designs.html", target: "_blank" },
+	                "Read all about it here."
+	              )
 	            )
 	          )
 	        )
@@ -12284,7 +12289,11 @@
 	                React.createElement(
 	                  'strong',
 	                  null,
-	                  'Read here'
+	                  React.createElement(
+	                    'a',
+	                    { href: 'designs.html', target: '_blank' },
+	                    'Read here'
+	                  )
 	                )
 	              )
 	            )

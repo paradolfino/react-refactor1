@@ -1,0 +1,19 @@
+#external-page-designs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    height: 100%;
+    min-height: 480px;
+    width: 70%;
+    min-width: 320px;
+    h1,
+    h2 {
+      color: #003366;
+    }
+
+    strong {
+      color: #ff3300;
+    }
+  }
+}

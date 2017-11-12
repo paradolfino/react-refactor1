@@ -8,7 +8,6 @@ class Pricing extends React.Component {
     this.settings = {
       header:'Simple Pricing Plans',
       sub:'No long-term contracts, no hidden fees, and no fine print to make you cringe. What you see is what you get.',
-      
     };
    
     

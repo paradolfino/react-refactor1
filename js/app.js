@@ -6,6 +6,7 @@ import Pricing from './components/pages/pricing';
 import MeetUs from './components/pages/meetus';
 import Contact from './components/pages/contact';
 import Thanks from './components/pages/thanks';
+
 //elements
 import Navigation from './components/elements/all-navigation';
 import Footer from './components/elements/all-footer';

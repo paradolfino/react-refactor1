@@ -692,6 +692,12 @@
   }
 }
 
+@media screen and (max-width: 824px) {
+  #page-howwehelp .carousel .slide:nth-child(1) {
+    padding-top: 500px;
+  }
+}
+
 @media screen and (max-width: 785px) {
   #page-howwehelp .carousel .slide:nth-child(1) {
     padding-top: 555px;
@@ -1254,6 +1260,31 @@
 }
 
 #page-thanks #thanks-content strong {
+  color: #ff3300;
+}
+
+#external-page-designs {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#external-page-designs div {
+  height: 100%;
+  min-height: 480px;
+  width: 70%;
+  min-width: 320px;
+}
+
+#external-page-designs div h1,
+#external-page-designs div h2 {
+  color: #003366;
+}
+
+#external-page-designs div strong {
   color: #ff3300;
 }
 

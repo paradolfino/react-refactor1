@@ -8,7 +8,7 @@ class ThanksContent extends React.Component {
           <h4>P. S. I may implement React Redux and/or Router for this project in the future. Stay tuned.</h4>
           <p>P. P. S. By the way, <strong>I'm for hire</strong>. For a complete list of my skills, projects, and work experience, please refer to my <a href="http://www.viktharienvolander.com/resume.pdf">resume.</a></p>
           <div id='furthermore'>
-            <p>Still reading? I bet you'd be interested in knowing why I chose to do this or that in the development of this project. Read all about it here.</p>
+            <p>Still reading? I bet you'd be interested in knowing why I chose to do this or that in the development of this project. <a href='designs.html' target='_blank'>Read all about it here.</a></p>
           </div>
         </div>
       </div>
