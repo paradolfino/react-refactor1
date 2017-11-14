@@ -11475,6 +11475,7 @@
 	    value: function componentWillUnmount() {
 	      clearTimeout(auto);
 	      console.log("carousel unmounted");
+	      //https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAv9AAAAJDc1NGQ2M2RmLTQzYWMtNDgyMS1iOWNmLTRjOTVlZWRmZTE4MA.jpg
 	    }
 	  }, {
 	    key: "render",
@@ -11495,7 +11496,39 @@
 	              React.createElement(
 	                "div",
 	                { id: "container" },
-	                React.createElement("div", { id: "subcontainer" })
+	                React.createElement(
+	                  "div",
+	                  { id: "box-head" },
+	                  React.createElement(
+	                    "p",
+	                    null,
+	                    "Viktharien Volander"
+	                  )
+	                ),
+	                React.createElement(
+	                  "div",
+	                  { id: "box-container" },
+	                  React.createElement(
+	                    "div",
+	                    { id: "circle-container" },
+	                    React.createElement("div", null),
+	                    React.createElement("img", { src: "ss.jpg" })
+	                  ),
+	                  React.createElement(
+	                    "div",
+	                    { id: "text-container" },
+	                    React.createElement(
+	                      "p",
+	                      null,
+	                      "Software Engineer"
+	                    ),
+	                    React.createElement(
+	                      "p",
+	                      null,
+	                      "React/Node/MongoDB"
+	                    )
+	                  )
+	                )
 	              )
 	            ),
 	            React.createElement(

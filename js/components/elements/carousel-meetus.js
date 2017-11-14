@@ -62,6 +62,7 @@ class Carousel extends React.Component {
   componentWillUnmount() {
     clearTimeout(auto);
     console.log("carousel unmounted");
+    //https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAv9AAAAJDc1NGQ2M2RmLTQzYWMtNDgyMS1iOWNmLTRjOTVlZWRmZTE4MA.jpg
   }
 
   render() {
@@ -72,7 +73,19 @@ class Carousel extends React.Component {
           <div id="slide-bot">
             <div>
               <div id='container'>
-                <div id="subcontainer" />
+                <div id="box-head">
+                  <p>Viktharien Volander</p>
+                </div>
+                <div id="box-container">
+                  <div id='circle-container'>
+                    <div/>
+                    <img src="ss.jpg"/>
+                  </div>
+                  <div id="text-container">
+                    <p>Software Engineer</p>
+                    <p>React/Node/MongoDB</p>
+                  </div>
+                </div>
               </div>
             </div>
             <div>

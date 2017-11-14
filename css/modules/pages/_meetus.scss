@@ -1,3 +1,4 @@
+$card-picture-size: 112px;
 #page-meetus {
   .carousel {
     .slide {
@@ -12,14 +13,51 @@
             align-items: center;
             flex-wrap: wrap;
             #container {
+              display: grid;
+              grid-template-rows: 0.3fr 3fr;
               width: 80%;
-              &:nth-child(1) {
-                #subcontainer {
-                  height: 264px;
-                  width: 480px;
-                  background: gray;
+              #box-head {
+                height: 100%;
+                width: 224px;
+                color: white;
+                background-color: #1c2334;
+              }
+                #box-container {
+                  position: relative;
+                  height: 320px;
+                  width: 224px;
+                  background: #EAEDF1;
+                  overflow: hidden;
+                  #circle-container {
+                    height: $card-picture-size;
+                    width: $card-picture-size;
+                    border: 12px solid #0099ff;
+                    border-radius: 100px;
+                    div {
+                      position: absolute;
+                      margin-left: 65px;
+                      height: $card-picture-size;
+                      width: $card-picture-size;
+                      background-color: #EAEDF1;
+                      -ms-transform: rotate(45deg); /* IE 9 */
+                      -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+                      transform: rotate(45deg);
+                    }
+                    img {
+                      height: $card-picture-size;
+                      width: $card-picture-size;
+                      border-radius: 100px;
+                      z-index: 100;
+                    }
+                  }
+                  #text-container {
+                    p {
+                      margin-top: -10px;
+                      font-size: 0.9em;
+                      color: gray;
+                    }
+                  }
                 } //container
-              } //end nth-child
             } //div
           } //div
         } //slide-bot
@@ -41,9 +79,10 @@
             a {
               font-weight: bold;
               text-decoration: none;
-              color: white;
+              color: #ff3300;
+              text-shadow: 1px 1px white;
               &:hover {
-                color: #ff3300;
+                color: white;
               }
             }
           }
